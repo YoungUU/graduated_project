@@ -76,6 +76,7 @@ public class ResearchController {
      */
     @RequestMapping(value = "delete")
     public String deletePaperById(){
+
         return "ok";
     }
 }

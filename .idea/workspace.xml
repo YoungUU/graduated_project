@@ -6,7 +6,9 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06d921d4-dbf5-4b95-b497-2f2b694822e7" name="Default" comment="" />
+    <list default="true" id="06d921d4-dbf5-4b95-b497-2f2b694822e7" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/my-graduation-project-web-admin/src/main/java/com/cqupt/ysc/graduation/project/web/admin/web/controller/ResearchController.java" beforeDir="false" afterPath="$PROJECT_DIR$/my-graduation-project-web-admin/src/main/java/com/cqupt/ysc/graduation/project/web/admin/web/controller/ResearchController.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/my-graduation-project-commons/target/" />
     <ignored path="$PROJECT_DIR$/my-graduation-project-dependencies/target/" />
@@ -54,22 +56,11 @@
       <file leaf-file-name="ResearchController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/my-graduation-project-web-admin/src/main/java/com/cqupt/ysc/graduation/project/web/admin/web/controller/ResearchController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
-              <caret line="75" column="7" lean-forward="true" selection-start-line="75" selection-start-column="7" selection-end-line="75" selection-end-column="7" />
+            <state relative-caret-position="236">
+              <caret line="71" column="5" lean-forward="true" selection-start-line="71" selection-start-column="5" selection-end-line="71" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2835#2836#0" expanded="true" />
-                <element signature="e#2859#2860#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PaperDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my-graduation-project-web-admin/src/main/java/com/cqupt/ysc/graduation/project/web/admin/dao/PaperDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -93,6 +84,9 @@
       <find>/static/assets/img/user2-160x160.jpg</find>
       <find>treeview-me</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -199,11 +193,12 @@
       <path value="$PROJECT_DIR$/my-graduation-project-web-admin/src/main/webapp/static/assets/bower_components/select2/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="950" />
     <option name="width" value="979" />
     <option name="height" value="1040" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -220,86 +215,6 @@
             <path>
               <item name="graduation-project" type="b2602c69:ProjectViewProjectNode" />
               <item name="graduation-project" type="462c0819:PsiDirectoryNode" />
-              <item name="my-graduation-project-commons" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="graduation-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="graduation-project" type="462c0819:PsiDirectoryNode" />
-              <item name="my-graduation-project-commons" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="graduation-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="graduation-project" type="462c0819:PsiDirectoryNode" />
-              <item name="my-graduation-project-commons" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="graduation-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="graduation-project" type="462c0819:PsiDirectoryNode" />
-              <item name="my-graduation-project-commons" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="graduation-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="graduation-project" type="462c0819:PsiDirectoryNode" />
-              <item name="my-graduation-project-commons" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="constant" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="graduation-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="graduation-project" type="462c0819:PsiDirectoryNode" />
-              <item name="my-graduation-project-domain" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="graduation-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="graduation-project" type="462c0819:PsiDirectoryNode" />
-              <item name="my-graduation-project-domain" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="graduation-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="graduation-project" type="462c0819:PsiDirectoryNode" />
-              <item name="my-graduation-project-domain" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="graduation-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="graduation-project" type="462c0819:PsiDirectoryNode" />
-              <item name="my-graduation-project-domain" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="graduation-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="graduation-project" type="462c0819:PsiDirectoryNode" />
-              <item name="my-graduation-project-domain" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="graduation-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="graduation-project" type="462c0819:PsiDirectoryNode" />
-              <item name="my-graduation-project-domain" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-              <item name="Dto" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="graduation-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="graduation-project" type="462c0819:PsiDirectoryNode" />
               <item name="my-graduation-project-web-admin" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -331,48 +246,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="admin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="graduation-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="graduation-project" type="462c0819:PsiDirectoryNode" />
-              <item name="my-graduation-project-web-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="graduation-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="graduation-project" type="462c0819:PsiDirectoryNode" />
-              <item name="my-graduation-project-web-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="graduation-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="graduation-project" type="462c0819:PsiDirectoryNode" />
-              <item name="my-graduation-project-web-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="graduation-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="graduation-project" type="462c0819:PsiDirectoryNode" />
-              <item name="my-graduation-project-web-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="graduation-project" type="b2602c69:ProjectViewProjectNode" />
@@ -406,6 +279,15 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="graduation-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="graduation-project" type="462c0819:PsiDirectoryNode" />
+              <item name="my-graduation-project-web-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -431,26 +313,7 @@
             <path>
               <item name="graduation-project" type="b2602c69:ProjectViewProjectNode" />
               <item name="graduation-project" type="462c0819:PsiDirectoryNode" />
-              <item name="my-graduation-project-web-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="graduation-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="graduation-project" type="462c0819:PsiDirectoryNode" />
-              <item name="my-graduation-project-web-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="graduation-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="graduation-project" type="462c0819:PsiDirectoryNode" />
-              <item name="my-graduation-project-web-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="my-graduation-project-web-api" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -818,7 +681,7 @@
       <workItem from="1555409236021" duration="3166000" />
       <workItem from="1555499605668" duration="20989000" />
       <workItem from="1555520941207" duration="7000" />
-      <workItem from="1555814840251" duration="2904000" />
+      <workItem from="1555814840251" duration="3599000" />
     </task>
     <servers />
   </component>
@@ -855,7 +718,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="127973000" />
+    <option name="totallyTimeSpent" value="128668000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -867,7 +730,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -890,11 +753,11 @@
       <window_info id="Image Layers" order="4" />
       <window_info anchor="bottom" id="Java Enterprise" order="8" sideWeight="0.49932975" weight="0.32842416" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.35640648" />
       <window_info anchor="bottom" id="Spring" order="13" sideWeight="0.49932975" weight="0.32842416" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49865952" weight="0.32842416" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25402144" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25402144" />
       <window_info anchor="bottom" id="Problems" order="15" weight="0.3298969" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info id="JRebel" order="3" side_tool="true" />
@@ -960,34 +823,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/my-graduation-project-web-admin/src/main/webapp/WEB-INF/views/login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="39" column="44" selection-start-line="39" selection-start-column="44" selection-end-line="39" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-graduation-project-domain/src/main/java/com/cqupt/ysc/graduation/project/domain/TbUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-graduation-project-domain/src/main/java/com/cqupt/ysc/graduation/project/domain/Patent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="10" selection-start-line="10" selection-end-line="14" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-graduation-project-domain/src/main/java/com/cqupt/ysc/graduation/project/domain/Dto/PatentDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/my-graduation-project-domain/src/main/java/com/cqupt/ysc/graduation/project/domain/Project.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="112">
@@ -1280,13 +1115,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my-graduation-project-web-admin/src/main/java/com/cqupt/ysc/graduation/project/web/admin/dao/PaperDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/my-graduation-project-web-admin/src/main/java/com/cqupt/ysc/graduation/project/web/admin/service/ResearchService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
@@ -1304,14 +1132,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my-graduation-project-web-admin/src/main/java/com/cqupt/ysc/graduation/project/web/admin/web/controller/ResearchController.java">
+    <entry file="file://$PROJECT_DIR$/my-graduation-project-web-api/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="75" column="7" lean-forward="true" selection-start-line="75" selection-start-column="7" selection-end-line="75" selection-end-column="7" />
+        <state relative-caret-position="308">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-graduation-project-dependencies/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-graduation-project-web-admin/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="10" column="58" lean-forward="true" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-graduation-project-web-admin/src/main/java/com/cqupt/ysc/graduation/project/web/admin/dao/PaperDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" selection-end-column="53" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2835#2836#0" expanded="true" />
-            <element signature="e#2859#2860#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-graduation-project-web-admin/src/main/java/com/cqupt/ysc/graduation/project/web/admin/web/controller/ResearchController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="71" column="5" lean-forward="true" selection-start-line="71" selection-start-column="5" selection-end-line="71" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
