@@ -84,7 +84,7 @@
                                         <td>
                                             <a href="#" type="button" class="btn  btn-sm btn-primary"><i class="fa fa-edit"></i>编辑</a>&nbsp;
                                             <a href="#" type="button" class="btn  btn-sm btn-info"><i class="fa fa-arrow-up"></i>置顶</a>&nbsp;
-                                            <a href="#" type="button" class="btn  btn-sm btn-danger"><i class="fa  fa-trash-o"></i>删除</a>&nbsp;
+                                            <a href="/research/delete?id=${paper.id}" type="button" class="btn  btn-sm btn-danger"><i class="fa  fa-trash-o"></i>删除</a>&nbsp;
                                         </td>
                                     </tr>
                                 </c:forEach>

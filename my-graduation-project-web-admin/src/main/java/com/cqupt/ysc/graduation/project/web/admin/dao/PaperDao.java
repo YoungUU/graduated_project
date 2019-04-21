@@ -10,5 +10,5 @@ public interface PaperDao {
     List<Paper> getPapers(String email);
     Paper getPaperById(long id);
     void deletePaperById(long id);
-    void savePaper(Paper paper);
+    void insertPaper(Paper paper);
 }

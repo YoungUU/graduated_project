@@ -7,6 +7,7 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
+<%@taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
 
 <html>
 <head>
@@ -98,6 +99,7 @@
                     </div>
                 </div>
             </div>
+        </section>
         </section>
     </div>
     <jsp:include page="../includes/copyright.jsp"/>

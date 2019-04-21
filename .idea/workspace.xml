@@ -7,7 +7,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="06d921d4-dbf5-4b95-b497-2f2b694822e7" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-graduation-project-domain/src/main/java/com/cqupt/ysc/graduation/project/domain/Dto/PaperDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/my-graduation-project-domain/src/main/java/com/cqupt/ysc/graduation/project/domain/Dto/PaperDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-graduation-project-domain/src/main/java/com/cqupt/ysc/graduation/project/domain/Paper.java" beforeDir="false" afterPath="$PROJECT_DIR$/my-graduation-project-domain/src/main/java/com/cqupt/ysc/graduation/project/domain/Paper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-graduation-project-domain/target/classes/com/cqupt/ysc/graduation/project/domain/Dto/PaperDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-graduation-project-domain/target/classes/com/cqupt/ysc/graduation/project/domain/Dto/PaperDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-graduation-project-domain/target/classes/com/cqupt/ysc/graduation/project/domain/Paper.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-graduation-project-domain/target/classes/com/cqupt/ysc/graduation/project/domain/Paper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-graduation-project-web-admin/src/main/java/com/cqupt/ysc/graduation/project/web/admin/dao/PaperDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/my-graduation-project-web-admin/src/main/java/com/cqupt/ysc/graduation/project/web/admin/dao/PaperDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-graduation-project-web-admin/src/main/java/com/cqupt/ysc/graduation/project/web/admin/dao/TbUserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/my-graduation-project-web-admin/src/main/java/com/cqupt/ysc/graduation/project/web/admin/dao/TbUserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-graduation-project-web-admin/src/main/java/com/cqupt/ysc/graduation/project/web/admin/service/impl/ResearchServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/my-graduation-project-web-admin/src/main/java/com/cqupt/ysc/graduation/project/web/admin/service/impl/ResearchServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-graduation-project-web-admin/src/main/java/com/cqupt/ysc/graduation/project/web/admin/web/controller/ResearchController.java" beforeDir="false" afterPath="$PROJECT_DIR$/my-graduation-project-web-admin/src/main/java/com/cqupt/ysc/graduation/project/web/admin/web/controller/ResearchController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-graduation-project-web-admin/src/main/resources/mapper/PaperMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/my-graduation-project-web-admin/src/main/resources/mapper/PaperMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-graduation-project-web-admin/src/main/resources/mapper/TbUserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/my-graduation-project-web-admin/src/main/resources/mapper/TbUserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-graduation-project-web-admin/src/main/webapp/WEB-INF/views/paper_form.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/my-graduation-project-web-admin/src/main/webapp/WEB-INF/views/paper_form.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-graduation-project-web-admin/src/main/webapp/WEB-INF/views/research_paper.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/my-graduation-project-web-admin/src/main/webapp/WEB-INF/views/research_paper.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-graduation-project-web-admin/target/classes/com/cqupt/ysc/graduation/project/web/admin/dao/PaperDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-graduation-project-web-admin/target/classes/com/cqupt/ysc/graduation/project/web/admin/dao/PaperDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-graduation-project-web-admin/target/classes/com/cqupt/ysc/graduation/project/web/admin/dao/TbUserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-graduation-project-web-admin/target/classes/com/cqupt/ysc/graduation/project/web/admin/dao/TbUserDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-graduation-project-web-admin/target/classes/com/cqupt/ysc/graduation/project/web/admin/service/impl/ResearchServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-graduation-project-web-admin/target/classes/com/cqupt/ysc/graduation/project/web/admin/service/impl/ResearchServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-graduation-project-web-admin/target/classes/com/cqupt/ysc/graduation/project/web/admin/web/controller/ResearchController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-graduation-project-web-admin/target/classes/mapper/PaperMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/my-graduation-project-web-admin/target/classes/mapper/PaperMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-graduation-project-web-admin/target/classes/mapper/TbUserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/my-graduation-project-web-admin/target/classes/mapper/TbUserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-graduation-project-web-admin/target/my-graduation-project-web-admin-1.0.0-SNAPSHOT/WEB-INF/classes/com/cqupt/ysc/graduation/project/web/admin/dao/PaperDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-graduation-project-web-admin/target/my-graduation-project-web-admin-1.0.0-SNAPSHOT/WEB-INF/classes/com/cqupt/ysc/graduation/project/web/admin/dao/PaperDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-graduation-project-web-admin/target/my-graduation-project-web-admin-1.0.0-SNAPSHOT/WEB-INF/classes/com/cqupt/ysc/graduation/project/web/admin/dao/TbUserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-graduation-project-web-admin/target/my-graduation-project-web-admin-1.0.0-SNAPSHOT/WEB-INF/classes/com/cqupt/ysc/graduation/project/web/admin/dao/TbUserDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-graduation-project-web-admin/target/my-graduation-project-web-admin-1.0.0-SNAPSHOT/WEB-INF/classes/com/cqupt/ysc/graduation/project/web/admin/service/impl/ResearchServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-graduation-project-web-admin/target/my-graduation-project-web-admin-1.0.0-SNAPSHOT/WEB-INF/classes/com/cqupt/ysc/graduation/project/web/admin/service/impl/ResearchServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-graduation-project-web-admin/target/my-graduation-project-web-admin-1.0.0-SNAPSHOT/WEB-INF/classes/com/cqupt/ysc/graduation/project/web/admin/web/controller/ResearchController.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-graduation-project-web-admin/target/my-graduation-project-web-admin-1.0.0-SNAPSHOT/WEB-INF/classes/com/cqupt/ysc/graduation/project/web/admin/web/controller/ResearchController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-graduation-project-web-admin/target/my-graduation-project-web-admin-1.0.0-SNAPSHOT/WEB-INF/classes/mapper/PaperMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/my-graduation-project-web-admin/target/my-graduation-project-web-admin-1.0.0-SNAPSHOT/WEB-INF/classes/mapper/PaperMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-graduation-project-web-admin/target/my-graduation-project-web-admin-1.0.0-SNAPSHOT/WEB-INF/classes/mapper/TbUserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/my-graduation-project-web-admin/target/my-graduation-project-web-admin-1.0.0-SNAPSHOT/WEB-INF/classes/mapper/TbUserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-graduation-project-web-admin/target/my-graduation-project-web-admin-1.0.0-SNAPSHOT/WEB-INF/lib/my-graduation-project-domain-1.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/my-graduation-project-web-admin/target/my-graduation-project-web-admin-1.0.0-SNAPSHOT/WEB-INF/lib/my-graduation-project-domain-1.0.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-graduation-project-web-admin/target/my-graduation-project-web-admin-1.0.0-SNAPSHOT/WEB-INF/views/paper_form.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/my-graduation-project-web-admin/target/my-graduation-project-web-admin-1.0.0-SNAPSHOT/WEB-INF/views/paper_form.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/my-graduation-project-commons/target/" />
@@ -32,13 +58,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ResearchServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my-graduation-project-web-admin/src/main/java/com/cqupt/ysc/graduation/project/web/admin/service/impl/ResearchServiceImpl.java">
+      <file leaf-file-name="ResearchController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/my-graduation-project-web-admin/src/main/java/com/cqupt/ysc/graduation/project/web/admin/web/controller/ResearchController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="316">
-              <caret line="43" selection-start-line="43" selection-end-line="43" />
+            <state relative-caret-position="-1083">
+              <caret line="24" column="44" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1840#1841#0" expanded="true" />
+                <element signature="e#1875#1876#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -47,20 +75,35 @@
       <file leaf-file-name="ResearchService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/my-graduation-project-web-admin/src/main/java/com/cqupt/ysc/graduation/project/web/admin/service/ResearchService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+            <state relative-caret-position="156">
+              <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ResearchController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/my-graduation-project-web-admin/src/main/java/com/cqupt/ysc/graduation/project/web/admin/web/controller/ResearchController.java">
+      <file leaf-file-name="paper_form.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/my-graduation-project-web-admin/src/main/webapp/WEB-INF/views/paper_form.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="71" column="5" lean-forward="true" selection-start-line="71" selection-start-column="5" selection-end-line="71" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="-995">
+              <caret line="46" column="129" selection-start-line="46" selection-start-column="129" selection-end-line="46" selection-end-column="129" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PaperMapper.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/my-graduation-project-web-admin/src/main/resources/mapper/PaperMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="229">
+              <caret line="34" column="24" lean-forward="true" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="research_paper.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/my-graduation-project-web-admin/src/main/webapp/WEB-INF/views/research_paper.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="86" column="73" selection-start-line="86" selection-start-column="73" selection-end-line="86" selection-end-column="73" />
             </state>
           </provider>
         </entry>
@@ -91,8 +134,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/my-graduation-project-web-admin/src/main/webapp/WEB-INF/includes/copyright.jsp" />
-        <option value="$PROJECT_DIR$/my-graduation-project-web-admin/src/main/webapp/WEB-INF/views/main.jsp" />
         <option value="$PROJECT_DIR$/my-graduation-project-web-admin/src/main/java/com/cqupt/ysc/graduation/project/web/admin/service/impl/TbUserServiceImpl.java" />
         <option value="$PROJECT_DIR$/my-graduation-project-web-admin/src/main/java/com/cqupt/ysc/graduation/project/web/admin/service/TbUserService.java" />
         <option value="$PROJECT_DIR$/my-graduation-project-web-admin/src/test/java/com/cqupt/ysc/graduation/project/web/admin/service/test/TbUserServiceTest.java" />
@@ -131,16 +172,18 @@
         <option value="$PROJECT_DIR$/my-graduation-project-web-admin/src/main/java/com/cqupt/ysc/graduation/project/web/admin/Utils/EmailUtils.java" />
         <option value="$PROJECT_DIR$/my-graduation-project-web-admin/src/main/java/com/cqupt/ysc/graduation/project/web/admin/web/controller/UserController.java" />
         <option value="$PROJECT_DIR$/my-graduation-project-web-admin/src/main/webapp/WEB-INF/includes/menu.jsp" />
-        <option value="$PROJECT_DIR$/my-graduation-project-web-admin/src/main/java/com/cqupt/ysc/graduation/project/web/admin/dao/PaperDao.java" />
         <option value="$PROJECT_DIR$/my-graduation-project-web-admin/src/main/java/com/cqupt/ysc/graduation/project/web/admin/service/ResearchService.java" />
-        <option value="$PROJECT_DIR$/my-graduation-project-web-admin/src/main/java/com/cqupt/ysc/graduation/project/web/admin/service/impl/ResearchServiceImpl.java" />
-        <option value="$PROJECT_DIR$/my-graduation-project-domain/src/main/java/com/cqupt/ysc/graduation/project/domain/Dto/PaperDto.java" />
-        <option value="$PROJECT_DIR$/my-graduation-project-domain/src/main/java/com/cqupt/ysc/graduation/project/domain/Paper.java" />
-        <option value="$PROJECT_DIR$/my-graduation-project-web-admin/src/main/webapp/WEB-INF/views/paper_form.jsp" />
-        <option value="$PROJECT_DIR$/my-graduation-project-web-admin/src/main/webapp/WEB-INF/views/research_paper.jsp" />
         <option value="$PROJECT_DIR$/my-graduation-project-web-admin/src/main/resources/mapper/UserInfoMapper.xml" />
         <option value="$PROJECT_DIR$/my-graduation-project-web-admin/src/test/java/com/cqupt/ysc/graduation/project/web/admin/service/test/UserInfoServiceTest.java" />
+        <option value="$PROJECT_DIR$/my-graduation-project-domain/src/main/java/com/cqupt/ysc/graduation/project/domain/Paper.java" />
+        <option value="$PROJECT_DIR$/my-graduation-project-domain/src/main/java/com/cqupt/ysc/graduation/project/domain/Dto/PaperDto.java" />
+        <option value="$PROJECT_DIR$/my-graduation-project-web-admin/src/main/java/com/cqupt/ysc/graduation/project/web/admin/dao/PaperDao.java" />
         <option value="$PROJECT_DIR$/my-graduation-project-web-admin/src/main/resources/mapper/PaperMapper.xml" />
+        <option value="$PROJECT_DIR$/my-graduation-project-web-admin/src/main/resources/mapper/TbUserMapper.xml" />
+        <option value="$PROJECT_DIR$/my-graduation-project-web-admin/src/main/java/com/cqupt/ysc/graduation/project/web/admin/dao/TbUserDao.java" />
+        <option value="$PROJECT_DIR$/my-graduation-project-web-admin/src/main/webapp/WEB-INF/views/paper_form.jsp" />
+        <option value="$PROJECT_DIR$/my-graduation-project-web-admin/src/main/java/com/cqupt/ysc/graduation/project/web/admin/service/impl/ResearchServiceImpl.java" />
+        <option value="$PROJECT_DIR$/my-graduation-project-web-admin/src/main/webapp/WEB-INF/views/research_paper.jsp" />
         <option value="$PROJECT_DIR$/my-graduation-project-web-admin/src/main/java/com/cqupt/ysc/graduation/project/web/admin/web/controller/ResearchController.java" />
       </list>
     </option>
@@ -194,9 +237,9 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="950" />
-    <option name="width" value="979" />
-    <option name="height" value="1040" />
+    <option name="x" value="952" />
+    <option name="width" value="977" />
+    <option name="height" value="1038" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -211,6 +254,51 @@
             <path>
               <item name="graduation-project" type="b2602c69:ProjectViewProjectNode" />
               <item name="graduation-project" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="graduation-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="graduation-project" type="462c0819:PsiDirectoryNode" />
+              <item name="my-graduation-project-domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="graduation-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="graduation-project" type="462c0819:PsiDirectoryNode" />
+              <item name="my-graduation-project-domain" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="graduation-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="graduation-project" type="462c0819:PsiDirectoryNode" />
+              <item name="my-graduation-project-domain" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="graduation-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="graduation-project" type="462c0819:PsiDirectoryNode" />
+              <item name="my-graduation-project-domain" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="graduation-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="graduation-project" type="462c0819:PsiDirectoryNode" />
+              <item name="my-graduation-project-domain" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="graduation-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="graduation-project" type="462c0819:PsiDirectoryNode" />
+              <item name="my-graduation-project-domain" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+              <item name="Dto" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="graduation-project" type="b2602c69:ProjectViewProjectNode" />
@@ -246,6 +334,58 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="graduation-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="graduation-project" type="462c0819:PsiDirectoryNode" />
+              <item name="my-graduation-project-web-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="graduation-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="graduation-project" type="462c0819:PsiDirectoryNode" />
+              <item name="my-graduation-project-web-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="graduation-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="graduation-project" type="462c0819:PsiDirectoryNode" />
+              <item name="my-graduation-project-web-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="graduation-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="graduation-project" type="462c0819:PsiDirectoryNode" />
+              <item name="my-graduation-project-web-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="graduation-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="graduation-project" type="462c0819:PsiDirectoryNode" />
+              <item name="my-graduation-project-web-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="graduation-project" type="b2602c69:ProjectViewProjectNode" />
@@ -681,7 +821,7 @@
       <workItem from="1555409236021" duration="3166000" />
       <workItem from="1555499605668" duration="20989000" />
       <workItem from="1555520941207" duration="7000" />
-      <workItem from="1555814840251" duration="3599000" />
+      <workItem from="1555814840251" duration="11227000" />
     </task>
     <servers />
   </component>
@@ -718,7 +858,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="128668000" />
+    <option name="totallyTimeSpent" value="136296000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -739,7 +879,7 @@
       <window_info anchor="bottom" id="JRebel Console" order="17" sideWeight="0.16152816" side_tool="true" weight="0.32842416" />
       <window_info anchor="right" id="Maven Projects" order="9" weight="0.34852546" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="JRebel Executor" order="16" sideWeight="0.83847183" weight="0.4138439" />
+      <window_info active="true" anchor="bottom" id="JRebel Executor" order="16" sideWeight="0.83847183" visible="true" weight="0.41740412" />
       <window_info id="Capture Tool" order="8" />
       <window_info id="Designer" order="2" />
       <window_info anchor="right" id="Database" order="5" />
@@ -748,7 +888,7 @@
       <window_info id="UI Designer" order="5" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.27876106" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32842416" />
-      <window_info anchor="bottom" id="Messages" order="14" sideWeight="0.49329758" weight="0.42562592" />
+      <window_info anchor="bottom" id="Messages" order="14" sideWeight="0.49329758" weight="0.4232558" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info id="Image Layers" order="4" />
       <window_info anchor="bottom" id="Java Enterprise" order="8" sideWeight="0.49932975" weight="0.32842416" />
@@ -757,7 +897,7 @@
       <window_info anchor="bottom" id="Run" order="2" weight="0.35640648" />
       <window_info anchor="bottom" id="Spring" order="13" sideWeight="0.49932975" weight="0.32842416" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49865952" weight="0.32842416" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25402144" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26407507" />
       <window_info anchor="bottom" id="Problems" order="15" weight="0.3298969" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info id="JRebel" order="3" side_tool="true" />
@@ -819,17 +959,10 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="4" />
+      <option name="time" value="5" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/my-graduation-project-domain/src/main/java/com/cqupt/ysc/graduation/project/domain/Project.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="15" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/my-graduation-project-domain/src/main/java/com/cqupt/ysc/graduation/project/domain/Dto/ProjectDto.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="349">
@@ -908,20 +1041,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my-graduation-project-web-admin/src/main/java/com/cqupt/ysc/graduation/project/web/admin/dao/TbUserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="35">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-graduation-project-web-admin/src/main/resources/mapper/TbUserMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="6" column="19" lean-forward="true" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/my-graduation-project-web-admin/src/main/java/com/cqupt/ysc/graduation/project/web/admin/service/TbUserService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
@@ -947,13 +1066,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
           <caret line="3" column="17" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-graduation-project-web-admin/src/main/java/com/cqupt/ysc/graduation/project/web/admin/service/impl/TbUserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -1042,34 +1154,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my-graduation-project-domain/src/main/java/com/cqupt/ysc/graduation/project/domain/Paper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-graduation-project-domain/src/main/java/com/cqupt/ysc/graduation/project/domain/Dto/PaperDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-graduation-project-web-admin/src/main/webapp/WEB-INF/views/research_paper.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2240">
-          <caret line="80" column="59" selection-start-line="80" selection-start-column="59" selection-end-line="80" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-graduation-project-web-admin/src/main/webapp/WEB-INF/views/paper_form.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2016">
-          <caret line="72" column="136" selection-start-line="72" selection-start-column="136" selection-end-line="72" selection-end-column="136" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/my-graduation-project-web-admin/src/main/java/com/cqupt/ysc/graduation/project/web/admin/service/impl/UserInfoServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1036">
@@ -1094,41 +1178,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my-graduation-project-web-admin/src/main/resources/mapper/UserInfoMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1204">
-          <caret line="43" column="13" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/my-graduation-project-web-admin/src/test/java/com/cqupt/ysc/graduation/project/web/admin/service/test/UserInfoServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="532">
           <caret line="25" column="36" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-graduation-project-web-admin/src/main/resources/mapper/PaperMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-graduation-project-web-admin/src/main/java/com/cqupt/ysc/graduation/project/web/admin/service/ResearchService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-graduation-project-web-admin/src/main/java/com/cqupt/ysc/graduation/project/web/admin/service/impl/ResearchServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="43" selection-start-line="43" selection-end-line="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1152,22 +1205,111 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/my-graduation-project-domain/src/main/java/com/cqupt/ysc/graduation/project/domain/TbUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-graduation-project-domain/src/main/java/com/cqupt/ysc/graduation/project/domain/Paper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="21" column="25" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/my-graduation-project-web-admin/src/main/java/com/cqupt/ysc/graduation/project/web/admin/dao/PaperDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" selection-end-column="53" />
+        <state relative-caret-position="336">
+          <caret line="12" column="20" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my-graduation-project-web-admin/src/main/java/com/cqupt/ysc/graduation/project/web/admin/web/controller/ResearchController.java">
+    <entry file="file://$PROJECT_DIR$/my-graduation-project-web-admin/src/main/java/com/cqupt/ysc/graduation/project/web/admin/service/impl/TbUserServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="71" column="5" lean-forward="true" selection-start-line="71" selection-start-column="5" selection-end-line="71" selection-end-column="5" />
+        <state relative-caret-position="280">
+          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-graduation-project-web-admin/src/main/java/com/cqupt/ysc/graduation/project/web/admin/dao/TbUserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-graduation-project-web-admin/src/main/resources/mapper/TbUserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="42" column="13" lean-forward="true" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-graduation-project-web-admin/src/main/resources/mapper/UserInfoMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="14" column="53" lean-forward="true" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-graduation-project-domain/src/main/java/com/cqupt/ysc/graduation/project/domain/Dto/PaperDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-graduation-project-web-admin/src/main/java/com/cqupt/ysc/graduation/project/web/admin/service/impl/ResearchServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="723">
+          <caret line="45" column="56" selection-start-line="45" selection-start-column="56" selection-end-line="45" selection-end-column="56" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-graduation-project-web-admin/src/main/java/com/cqupt/ysc/graduation/project/web/admin/service/ResearchService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-graduation-project-web-admin/src/main/webapp/WEB-INF/views/research_paper.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="86" column="73" selection-start-line="86" selection-start-column="73" selection-end-line="86" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-graduation-project-web-admin/src/main/resources/mapper/PaperMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="34" column="24" lean-forward="true" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-graduation-project-web-admin/src/main/webapp/WEB-INF/views/paper_form.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-995">
+          <caret line="46" column="129" selection-start-line="46" selection-start-column="129" selection-end-line="46" selection-end-column="129" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-graduation-project-web-admin/src/main/java/com/cqupt/ysc/graduation/project/web/admin/web/controller/ResearchController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1083">
+          <caret line="24" column="44" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1840#1841#0" expanded="true" />
+            <element signature="e#1875#1876#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -19,4 +19,7 @@ public interface TbUserDao {
      * @return
      */
     TbUser getByEmail(String email);
+
+    void update(TbUser tbUser);
+    void insert(TbUser tbUser);
 }

@@ -28,12 +28,14 @@
         WHERE
         a.id = #{id}
     </select>
+
     <select id="deletePaperById">
         update paper
         set del_flg = 1
         WHERE id = #{id}
     </select>
-    <select id="savePaper">
+
+    <select id="insertPaper">
     INSERT INTO paper(paper_name,number1,release_time,ordernum ,status,author,url,source,email,del_flg,created,updated)
     VALUES (#{paperName},#{number1},#{releaseTime},#{ordernum},#{status},#{author},#{url},#{source},#{email},#{delFlg},#{created},#{updated})
     </select>

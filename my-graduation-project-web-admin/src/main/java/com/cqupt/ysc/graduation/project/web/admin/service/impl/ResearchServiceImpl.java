@@ -9,6 +9,7 @@ import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.sql.Time;
 import java.util.List;
 
 @Service
@@ -37,11 +38,19 @@ public class ResearchServiceImpl implements ResearchService {
         if (paperDto == null){
             return "paper_form";
         }
-        Paper paper = new Paper();
-        BeanUtils.copyProperties(paperDto,paper);
-        paper.setUpdated(TimeUtils.getSystemTime());
-        paper.setCreated(TimeUtils.getSystemTime());
-        paperDao.savePaper(paper);
+        paperDto.setUpdated(TimeUtils.getSystemTime());
+        //新增用户
+        if (paperDto.getId() == null){
+            Paper paper = new Paper();
+            BeanUtils.copyProperties(paperDto,paper);
+            paper.setCreated(TimeUtils.getSystemTime());
+            paperDao.insertPaper(paper);
+        }
+
+        //编辑用户
+        else {
+
+        }
 
         return "插入成功";
     }

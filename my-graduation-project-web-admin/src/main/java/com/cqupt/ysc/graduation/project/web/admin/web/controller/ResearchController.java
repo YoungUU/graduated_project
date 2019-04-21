@@ -4,21 +4,18 @@ import com.cqupt.ysc.graduation.project.commons.constant.ConstantUtils;
 import com.cqupt.ysc.graduation.project.commons.constant.TimeUtils;
 import com.cqupt.ysc.graduation.project.domain.Dto.PaperDto;
 import com.cqupt.ysc.graduation.project.domain.Paper;
+import com.cqupt.ysc.graduation.project.domain.TbUser;
 import com.cqupt.ysc.graduation.project.web.admin.Utils.EmailUtils;
 import com.cqupt.ysc.graduation.project.web.admin.service.ResearchService;
+import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.servlet.mvc.support.RedirectAttributes;
-
 import javax.servlet.http.HttpServletRequest;
-import javax.swing.plaf.synth.SynthOptionPaneUI;
-import java.sql.Timestamp;
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
-import java.util.Date;
+
 import java.util.List;
 
 @Controller
@@ -40,7 +37,7 @@ public class ResearchController {
      * @return
      */
     @RequestMapping(value = "form",method = RequestMethod.GET)
-    public String form(){
+    public String form(Model model) {
         return "paper_form";
     }
 
@@ -48,26 +45,16 @@ public class ResearchController {
      * 新增论文
      */
     @RequestMapping(value = "savePaper",method = RequestMethod.POST)
-    public String savePaper(HttpServletRequest httpServletRequest){
+    public String savePaper(HttpServletRequest httpServletRequest,PaperDto paperDto){
         if (httpServletRequest.getParameter("paperName")==null){
             return "paper_form";
         }
-        //封装一个PaperDto
 
-        PaperDto paperDto = new PaperDto();
-        paperDto.setAuthor(httpServletRequest.getParameter("author"));
         paperDto.setEmail(EmailUtils.getUserEmail(httpServletRequest));
-        paperDto.setPaperName(httpServletRequest.getParameter("paperName"));
-        paperDto.setNumber1(httpServletRequest.getParameter("number1"));
-        paperDto.setStatus(httpServletRequest.getParameter("status"));
-        paperDto.setUrl(httpServletRequest.getParameter("url"));
-        paperDto.setReleaseTime(httpServletRequest.getParameter("releaseTime"));
 
+        //封装完成，进行插入。
+        researchService.savePaper(paperDto);
 
-        String end = researchService.savePaper(paperDto);
-        System.out.println(end);
-
-        System.out.println(paperDto);
         return "redirect:/research/paper";
     }
 
@@ -75,8 +62,8 @@ public class ResearchController {
      * 删除paper
      */
     @RequestMapping(value = "delete")
-    public String deletePaperById(){
-
-        return "ok";
+    public String deletePaperById(Long id){
+        researchService.deletePaperById(id);
+        return "redirect:/research/paper";
     }
 }

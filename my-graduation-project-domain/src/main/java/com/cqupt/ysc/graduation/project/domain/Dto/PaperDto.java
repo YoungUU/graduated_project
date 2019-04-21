@@ -7,7 +7,7 @@ import java.util.Date;
 
 @Data
 public class PaperDto implements Serializable {
-    private long id;
+    private Long id;
     private String paperName;
     private String number1;
     private String url;
@@ -17,5 +17,6 @@ public class PaperDto implements Serializable {
     private String author;
     private String source;
     private String email;
+    private Date updated;
     private short delFlg;
 }
