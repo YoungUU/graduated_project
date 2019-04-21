@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="my-graduation-project-commons" />
+        <module name="my-graduation-project-domain" />
+        <module name="my-graduation-project-web-admin" />
+        <module name="my-graduation-project-web-api" />
+        <module name="my-graduation-project-web-ui" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="graduation-project" target="1.5" />
+      <module name="my-graduation-project-commons" target="1.8" />
+      <module name="my-graduation-project-dependencies" target="1.8" />
+      <module name="my-graduation-project-domain" target="1.8" />
+      <module name="my-graduation-project-web-ad" target="1.8" />
+      <module name="my-graduation-project-web-admin" target="1.8" />
+      <module name="my-graduation-project-web-api" target="1.8" />
+      <module name="my-graduation-project-web-ui" target="1.8" />
+      <module name="my-shop-web-admin" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
