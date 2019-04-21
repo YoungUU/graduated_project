@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.cqupt.ysc.graduation.project.web.admin.dao.RewardDao">
+    <select id="getReward" resultType="com.cqupt.ysc.graduation.project.domain.Reward">
+        SELECT id,getime,context,reward_name,level,del_flg,email,created,updated
+        FROM reward
+        WHERE email=#{email} and del_flg = 0
+    </select>
+    <select id="getRewardById" resultType="com.cqupt.ysc.graduation.project.domain.Reward">
+        SELECT id,getime,context,reward_name,level,del_flg,email,created,updated
+        FROM reward
+        WHERE id=#{id}
+    </select>
+    <update id="deleteRewardById">
+        update reward
+        set del_flg = 1
+        WHERE id = #{id}
+    </update>
+
+    <insert id="saveReward" parameterType="com.cqupt.ysc.graduation.project.domain.Reward">
+        INSERT INTO reward(getime,context,reward_name,level,del_flg,email,created,updated)
+        VALUES(#{getime},#{context},#{reward_name},#{level},#{delFlg},#{email},#{created},#{updated})
+    </insert>
+
+
+</mapper>

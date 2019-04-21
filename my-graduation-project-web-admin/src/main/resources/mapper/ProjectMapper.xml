@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.cqupt.ysc.graduation.project.web.admin.dao.ProjectDao">
+    <select id="getProject" resultType="com.cqupt.ysc.graduation.project.domain.Project">
+        SELECT id,project_name,main_person,context,scale,del_flg,email,created,updated
+        FROM project
+        WHERE email=#{email} and del_flg = 0
+    </select>
+    <select id="getProjectById" resultType="com.cqupt.ysc.graduation.project.domain.Project">
+        SELECT id,project_name,main_person,context,scale,del_flg,email,created,updated
+        FROM project
+        WHERE id=#{id}
+    </select>
+    <update id="deleteProjectById">
+        update project
+        set del_flg = 1
+        WHERE id = #{id}
+    </update>
+
+    <insert id="saveProject" parameterType="com.cqupt.ysc.graduation.project.domain.Project">
+        INSERT INTO project(project_name,main_person,context,scale,del_flg,email,created,updated)
+        VALUES(#{projectName},#{mainPerson},#{context},#{scale},#{delFlg},#{email},#{created},#{updated})
+    </insert>
+
+</mapper>

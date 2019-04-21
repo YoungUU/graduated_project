@@ -1,42 +1,87 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ArtifactsWorkspaceSettings">
-    <artifacts-to-build>
-      <artifact name="my-graduation-project-web-admin:war exploded" />
-    </artifacts-to-build>
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="06d921d4-dbf5-4b95-b497-2f2b694822e7" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/my-graduation-project-web-admin/src/main/java/com/cqupt/ysc/graduation/project/web/admin/web/controller/ResearchController.java" beforeDir="false" afterPath="$PROJECT_DIR$/my-graduation-project-web-admin/src/main/java/com/cqupt/ysc/graduation/project/web/admin/web/controller/ResearchController.java" afterDir="false" />
+    <list default="true" id="ba9d27f2-1095-499a-ae73-00adacb03ff3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/my-graduation-project-web-admin/src/main/resources/mapper/PatentMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-graduation-project-web-admin/src/main/resources/mapper/ProjectMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-graduation-project-web-admin/src/main/resources/mapper/RewardMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/my_graduation_project_web_admin_war.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/my_graduation_project_web_admin_war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/my_graduation_project_web_api_war.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/my_graduation_project_web_api_war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/my_graduation_project_web_ui_war.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/my_graduation_project_web_ui_war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/graduation-project.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_1_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jstl_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_46.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_2_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_25.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_25.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_25.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_3_17_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_3_17_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_3_17_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_3_17_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_3_17_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_3_17_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_3_17_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_3_17_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_3_17_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_17_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-graduation-project-commons/my-graduation-project-commons.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-graduation-project-dependencies/my-graduation-project-dependencies.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-graduation-project-domain/my-graduation-project-domain.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-graduation-project-web-admin/my-graduation-project-web-admin.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-graduation-project-web-admin/src/main/java/com/cqupt/ysc/graduation/project/web/admin/dao/PatentDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/my-graduation-project-web-admin/src/main/java/com/cqupt/ysc/graduation/project/web/admin/dao/PatentDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-graduation-project-web-admin/src/main/java/com/cqupt/ysc/graduation/project/web/admin/dao/ProjectDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/my-graduation-project-web-admin/src/main/java/com/cqupt/ysc/graduation/project/web/admin/dao/ProjectDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-graduation-project-web-admin/src/main/java/com/cqupt/ysc/graduation/project/web/admin/dao/RewardDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/my-graduation-project-web-admin/src/main/java/com/cqupt/ysc/graduation/project/web/admin/dao/RewardDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-graduation-project-web-api/my-graduation-project-web-api.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-graduation-project-web-ui/my-graduation-project-web-ui.iml" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/my-graduation-project-commons/target/" />
+    <ignored path="$PROJECT_DIR$/my-graduation-project-web-admin/target/" />
+    <ignored path="$PROJECT_DIR$/my-graduation-project-web-api/target/" />
     <ignored path="$PROJECT_DIR$/my-graduation-project-dependencies/target/" />
     <ignored path="$PROJECT_DIR$/my-graduation-project-web-ui/target/" />
-    <ignored path="$PROJECT_DIR$/my-graduation-project-web-api/target/" />
     <ignored path="$PROJECT_DIR$/my-graduation-project-domain/target/" />
-    <ignored path="$PROJECT_DIR$/my-graduation-project-web-domain/target/" />
-    <ignored path="$PROJECT_DIR$/my-graduation-project-web-admin/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="CompilerWorkspaceConfiguration">
-    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
-  </component>
-  <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/graduation_project$my_graduation_project_web_admin.ic" NAME="my-graduation-project-web-admin Coverage Results" MODIFIED="1553763410023" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-  </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ResearchServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my-graduation-project-web-admin/src/main/java/com/cqupt/ysc/graduation/project/web/admin/service/impl/ResearchServiceImpl.java">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/my-graduation-project-web-admin/src/main/resources/mapper/ProjectMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="316">
-              <caret line="43" selection-start-line="43" selection-end-line="43" />
+            <state relative-caret-position="345">
+              <caret line="15" column="23" lean-forward="true" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/my-graduation-project-web-admin/src/main/java/com/cqupt/ysc/graduation/project/web/admin/dao/ProjectDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -44,20 +89,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ResearchService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my-graduation-project-web-admin/src/main/java/com/cqupt/ysc/graduation/project/web/admin/service/ResearchService.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/my-graduation-project-web-admin/src/main/java/com/cqupt/ysc/graduation/project/web/admin/dao/RewardDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ResearchController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/my-graduation-project-web-admin/src/main/java/com/cqupt/ysc/graduation/project/web/admin/web/controller/ResearchController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="71" column="5" lean-forward="true" selection-start-line="71" selection-start-column="5" selection-end-line="71" selection-end-column="5" />
+            <state relative-caret-position="276">
+              <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -67,172 +103,102 @@
       </file>
     </leaf>
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Kotlin Interface" />
-        <option value="Interface" />
-        <option value="Class" />
-        <option value="Jsp File" />
-      </list>
-    </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>my-shop</find>
-      <find>shop</find>
-      <find>/static/assets/img/user2-160x160.jpg</find>
-      <find>treeview-me</find>
-    </findStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/my-graduation-project-web-admin/src/main/webapp/WEB-INF/includes/copyright.jsp" />
-        <option value="$PROJECT_DIR$/my-graduation-project-web-admin/src/main/webapp/WEB-INF/views/main.jsp" />
-        <option value="$PROJECT_DIR$/my-graduation-project-web-admin/src/main/java/com/cqupt/ysc/graduation/project/web/admin/service/impl/TbUserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/my-graduation-project-web-admin/src/main/java/com/cqupt/ysc/graduation/project/web/admin/service/TbUserService.java" />
-        <option value="$PROJECT_DIR$/my-graduation-project-web-admin/src/test/java/com/cqupt/ysc/graduation/project/web/admin/service/test/TbUserServiceTest.java" />
-        <option value="$PROJECT_DIR$/my-graduation-project-web-admin/src/main/java/com/cqupt/ysc/graduation/project/web/admin/web/interceptor/LoginInterceptor.java" />
-        <option value="$PROJECT_DIR$/my-graduation-project-web-admin/src/main/java/com/cqupt/ysc/graduation/project/web/admin/web/interceptor/PermissionInterceptor.java" />
-        <option value="$PROJECT_DIR$/my-graduation-project-web-admin/src/main/webapp/WEB-INF/includes/nav.jsp" />
-        <option value="$PROJECT_DIR$/my-graduation-project-web-admin/src/main/java/com/cqupt/ysc/graduation/project/web/admin/dao/UserInfoDao.java" />
-        <option value="$PROJECT_DIR$/my-graduation-project-commons/src/main/java/com/cqupt/ysc/graduation/project/commons/constant/UrlUtils.java" />
-        <option value="$PROJECT_DIR$/my-graduation-project-domain/src/main/java/com/cqupt/ysc/graduation/project/domain/UserInfo.java" />
-        <option value="$PROJECT_DIR$/my-graduation-project-web-admin/src/main/webapp/WEB-INF/views/user_info.jsp" />
-        <option value="$PROJECT_DIR$/my-graduation-project-web-admin/src/main/webapp/WEB-INF/views/user_eduinfo.jsp" />
-        <option value="$PROJECT_DIR$/my-graduation-project-domain/src/main/java/com/cqupt/ysc/graduation/project/domain/patent.java" />
-        <option value="$PROJECT_DIR$/my-graduation-project-domain/src/main/java/com/cqupt/ysc/graduation/project/domain/TbUser.java" />
-        <option value="$PROJECT_DIR$/my-graduation-project-domain/src/main/java/com/cqupt/ysc/graduation/project/domain/Patent.java" />
-        <option value="$PROJECT_DIR$/my-graduation-project-domain/src/main/java/com/cqupt/ysc/graduation/project/domain/Dto/reward.java" />
-        <option value="$PROJECT_DIR$/my-graduation-project-domain/src/main/java/com/cqupt/ysc/graduation/project/domain/student.java" />
-        <option value="$PROJECT_DIR$/my-graduation-project-domain/src/main/java/com/cqupt/ysc/graduation/project/domain/Dto/UserInfoDto.java" />
-        <option value="$PROJECT_DIR$/my-graduation-project-domain/src/main/java/com/cqupt/ysc/graduation/project/domain/project.java" />
-        <option value="$PROJECT_DIR$/my-graduation-project-domain/src/main/java/com/cqupt/ysc/graduation/project/domain/Dto/PatentDato.java" />
-        <option value="$PROJECT_DIR$/my-graduation-project-domain/src/main/java/com/cqupt/ysc/graduation/project/domain/Dto/PatentDto.java" />
-        <option value="$PROJECT_DIR$/my-graduation-project-domain/src/main/java/com/cqupt/ysc/graduation/project/domain/Dto/ProjectDto.java" />
-        <option value="$PROJECT_DIR$/my-graduation-project-domain/src/main/java/com/cqupt/ysc/graduation/project/domain/Dto/RewardDto.java" />
-        <option value="$PROJECT_DIR$/my-graduation-project-domain/src/main/java/com/cqupt/ysc/graduation/project/domain/Dto/StudentDto.java" />
-        <option value="$PROJECT_DIR$/my-graduation-project-web-admin/src/main/java/com/cqupt/ysc/graduation/project/web/admin/dao/PatentDao.java" />
         <option value="$PROJECT_DIR$/my-graduation-project-web-admin/src/main/java/com/cqupt/ysc/graduation/project/web/admin/dao/ProjectDao.java" />
+        <option value="$PROJECT_DIR$/my-graduation-project-domain/src/main/java/com/cqupt/ysc/graduation/project/domain/Patent.java" />
+        <option value="$PROJECT_DIR$/my-graduation-project-web-admin/src/main/java/com/cqupt/ysc/graduation/project/web/admin/dao/PatentDao.java" />
+        <option value="$PROJECT_DIR$/my-graduation-project-web-admin/src/main/resources/mapper/PatentMapper.xml" />
+        <option value="$PROJECT_DIR$/my-graduation-project-web-admin/src/main/resources/mapper/ProjectMapper.xml" />
+        <option value="$PROJECT_DIR$/my-graduation-project-web-admin/src/main/resources/mapper/RewardMapper.xml" />
         <option value="$PROJECT_DIR$/my-graduation-project-web-admin/src/main/java/com/cqupt/ysc/graduation/project/web/admin/dao/RewardDao.java" />
-        <option value="$PROJECT_DIR$/my-graduation-project-web-admin/src/main/java/com/cqupt/ysc/graduation/project/web/admin/dao/StudentDao.java" />
-        <option value="$PROJECT_DIR$/my-graduation-project-web-admin/src/main/java/com/cqupt/ysc/graduation/project/web/admin/service/UserInfoService.java" />
-        <option value="$PROJECT_DIR$/my-graduation-project-web-admin/src/main/java/com/cqupt/ysc/graduation/project/web/admin/service/PaperService.java" />
-        <option value="$PROJECT_DIR$/my-graduation-project-web-admin/src/test/java/com/cqupt/ysc/graduation/project/web/admin/service/test/PaperServiceTest.java" />
-        <option value="$PROJECT_DIR$/my-graduation-project-web-admin/src/main/webapp/WEB-INF/views/user_research.jsp" />
-        <option value="$PROJECT_DIR$/my-graduation-project-commons/src/main/java/com/cqupt/ysc/graduation/project/commons/constant/TimeUtils.java" />
-        <option value="$PROJECT_DIR$/my-graduation-project-web-admin/src/main/java/com/cqupt/ysc/graduation/project/web/admin/service/impl/UserInfoServiceImpl.java" />
-        <option value="$PROJECT_DIR$/my-graduation-project-web-admin/src/main/java/com/cqupt/ysc/graduation/project/web/admin/service/impl/PaperServiceImpl.java" />
-        <option value="$PROJECT_DIR$/my-graduation-project-commons/src/main/java/com/cqupt/ysc/graduation/project/commons/constant/EmailUtils.java" />
-        <option value="$PROJECT_DIR$/my-graduation-project-web-admin/src/main/java/com/cqupt/ysc/graduation/project/web/admin/Utils/EmailUtils.java" />
-        <option value="$PROJECT_DIR$/my-graduation-project-web-admin/src/main/java/com/cqupt/ysc/graduation/project/web/admin/web/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/my-graduation-project-web-admin/src/main/webapp/WEB-INF/includes/menu.jsp" />
-        <option value="$PROJECT_DIR$/my-graduation-project-web-admin/src/main/java/com/cqupt/ysc/graduation/project/web/admin/dao/PaperDao.java" />
-        <option value="$PROJECT_DIR$/my-graduation-project-web-admin/src/main/java/com/cqupt/ysc/graduation/project/web/admin/service/ResearchService.java" />
-        <option value="$PROJECT_DIR$/my-graduation-project-web-admin/src/main/java/com/cqupt/ysc/graduation/project/web/admin/service/impl/ResearchServiceImpl.java" />
-        <option value="$PROJECT_DIR$/my-graduation-project-domain/src/main/java/com/cqupt/ysc/graduation/project/domain/Dto/PaperDto.java" />
-        <option value="$PROJECT_DIR$/my-graduation-project-domain/src/main/java/com/cqupt/ysc/graduation/project/domain/Paper.java" />
-        <option value="$PROJECT_DIR$/my-graduation-project-web-admin/src/main/webapp/WEB-INF/views/paper_form.jsp" />
-        <option value="$PROJECT_DIR$/my-graduation-project-web-admin/src/main/webapp/WEB-INF/views/research_paper.jsp" />
-        <option value="$PROJECT_DIR$/my-graduation-project-web-admin/src/main/resources/mapper/UserInfoMapper.xml" />
-        <option value="$PROJECT_DIR$/my-graduation-project-web-admin/src/test/java/com/cqupt/ysc/graduation/project/web/admin/service/test/UserInfoServiceTest.java" />
-        <option value="$PROJECT_DIR$/my-graduation-project-web-admin/src/main/resources/mapper/PaperMapper.xml" />
-        <option value="$PROJECT_DIR$/my-graduation-project-web-admin/src/main/java/com/cqupt/ysc/graduation/project/web/admin/web/controller/ResearchController.java" />
       </list>
     </option>
   </component>
-  <component name="JRebelWorkspace">
-    <option name="jrebelEnabledAutocompile" value="true" />
-  </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="LogFilters">
-    <option name="FILTER_ERRORS" value="false" />
-    <option name="FILTER_WARNINGS" value="false" />
-    <option name="FILTER_INFO" value="true" />
-    <option name="FILTER_DEBUG" value="true" />
-    <option name="CUSTOM_FILTER" />
-  </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="alwaysUpdateSnapshots" value="true" />
-        <option name="mavenHome" value="E:/maven/apache-maven-3.6.0" />
-        <option name="userSettingsFile" value="E:\maven\apache-maven-3.6.0\conf\settings.xml" />
-      </MavenGeneralSettings>
-    </option>
-  </component>
-  <component name="MavenProjectNavigator">
-    <treeState>
-      <expand />
-      <select />
-    </treeState>
-  </component>
-  <component name="NodePackageJsonFileManager">
-    <packageJsonPaths>
-      <path value="$PROJECT_DIR$/my-graduation-project-web-admin/src/main/webapp/static/assets/bower_components/Flot/package.json" />
-      <path value="$PROJECT_DIR$/my-graduation-project-web-admin/src/main/webapp/static/assets/bower_components/bootstrap-datepicker/package.json" />
-      <path value="$PROJECT_DIR$/my-graduation-project-web-admin/src/main/webapp/static/assets/bower_components/bootstrap-daterangepicker/package.json" />
-      <path value="$PROJECT_DIR$/my-graduation-project-web-admin/src/main/webapp/static/assets/bower_components/bootstrap/package.json" />
-      <path value="$PROJECT_DIR$/my-graduation-project-web-admin/src/main/webapp/static/assets/bower_components/chart.js/package.json" />
-      <path value="$PROJECT_DIR$/my-graduation-project-web-admin/src/main/webapp/static/assets/bower_components/ckeditor/package.json" />
-      <path value="$PROJECT_DIR$/my-graduation-project-web-admin/src/main/webapp/static/assets/bower_components/eve-raphael/package.json" />
-      <path value="$PROJECT_DIR$/my-graduation-project-web-admin/src/main/webapp/static/assets/bower_components/ion.rangeSlider/package.json" />
-      <path value="$PROJECT_DIR$/my-graduation-project-web-admin/src/main/webapp/static/assets/bower_components/jquery-knob/package.json" />
-      <path value="$PROJECT_DIR$/my-graduation-project-web-admin/src/main/webapp/static/assets/bower_components/jquery-slimscroll/package.json" />
-      <path value="$PROJECT_DIR$/my-graduation-project-web-admin/src/main/webapp/static/assets/bower_components/jquery-ui/package.json" />
-      <path value="$PROJECT_DIR$/my-graduation-project-web-admin/src/main/webapp/static/assets/bower_components/morris.js/package.json" />
-      <path value="$PROJECT_DIR$/my-graduation-project-web-admin/src/main/webapp/static/assets/bower_components/select2/package.json" />
-    </packageJsonPaths>
-  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="950" />
-    <option name="width" value="979" />
-    <option name="height" value="1040" />
+    <option name="x" value="120" />
+    <option name="y" value="60" />
+    <option name="width" value="1750" />
+    <option name="height" value="980" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
+      <flattenPackages ProjectPane="false" />
+      <hideEmptyPackages ProjectPane="true" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="graduation-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="graduation-project" type="462c0819:PsiDirectoryNode" />
+              <item name="graduated_project" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="graduation-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="graduation-project" type="462c0819:PsiDirectoryNode" />
+              <item name="graduated_project" type="462c0819:PsiDirectoryNode" />
+              <item name="my-graduation-project-domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="graduation-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="graduated_project" type="462c0819:PsiDirectoryNode" />
+              <item name="my-graduation-project-domain" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="graduation-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="graduated_project" type="462c0819:PsiDirectoryNode" />
+              <item name="my-graduation-project-domain" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="graduation-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="graduated_project" type="462c0819:PsiDirectoryNode" />
+              <item name="my-graduation-project-domain" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="graduation-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="graduated_project" type="462c0819:PsiDirectoryNode" />
+              <item name="my-graduation-project-domain" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="graduation-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="graduated_project" type="462c0819:PsiDirectoryNode" />
               <item name="my-graduation-project-web-admin" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="graduation-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="graduation-project" type="462c0819:PsiDirectoryNode" />
+              <item name="graduated_project" type="462c0819:PsiDirectoryNode" />
               <item name="my-graduation-project-web-admin" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="graduation-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="graduation-project" type="462c0819:PsiDirectoryNode" />
+              <item name="graduated_project" type="462c0819:PsiDirectoryNode" />
               <item name="my-graduation-project-web-admin" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="graduation-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="graduation-project" type="462c0819:PsiDirectoryNode" />
+              <item name="graduated_project" type="462c0819:PsiDirectoryNode" />
               <item name="my-graduation-project-web-admin" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
@@ -240,7 +206,7 @@
             </path>
             <path>
               <item name="graduation-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="graduation-project" type="462c0819:PsiDirectoryNode" />
+              <item name="graduated_project" type="462c0819:PsiDirectoryNode" />
               <item name="my-graduation-project-web-admin" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
@@ -249,7 +215,17 @@
             </path>
             <path>
               <item name="graduation-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="graduation-project" type="462c0819:PsiDirectoryNode" />
+              <item name="graduated_project" type="462c0819:PsiDirectoryNode" />
+              <item name="my-graduation-project-web-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="graduation-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="graduated_project" type="462c0819:PsiDirectoryNode" />
               <item name="my-graduation-project-web-admin" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
@@ -257,92 +233,30 @@
             </path>
             <path>
               <item name="graduation-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="graduation-project" type="462c0819:PsiDirectoryNode" />
+              <item name="graduated_project" type="462c0819:PsiDirectoryNode" />
               <item name="my-graduation-project-web-admin" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="mapper" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="graduation-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="graduation-project" type="462c0819:PsiDirectoryNode" />
-              <item name="my-graduation-project-web-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="graduation-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="graduation-project" type="462c0819:PsiDirectoryNode" />
-              <item name="my-graduation-project-web-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="graduation-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="graduation-project" type="462c0819:PsiDirectoryNode" />
-              <item name="my-graduation-project-web-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="graduation-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="graduation-project" type="462c0819:PsiDirectoryNode" />
-              <item name="my-graduation-project-web-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="includes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="graduation-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="graduation-project" type="462c0819:PsiDirectoryNode" />
-              <item name="my-graduation-project-web-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="graduation-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="graduation-project" type="462c0819:PsiDirectoryNode" />
-              <item name="my-graduation-project-web-api" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/my-graduation-project-web-admin" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555829322740" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="com.zeroturnaround.javarebel.idea.plugin.settings.JRebelSettingsComponent" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="com.cqupt.ysc.graduation.project.web.admin.service" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\biyesheji\graduation-project\my-graduation-project-web-admin\src\main\java\com\cqupt\ysc\graduation\project\web\admin\web\interceptor" />
-      <recent name="D:\biyesheji\graduation-project\my-graduation-project-web-admin\src\main\webapp\static" />
-      <recent name="D:\biyesheji\graduation-project\my-graduation-project-web-admin\src\main\webapp\WEB-INF\views" />
-      <recent name="D:\biyesheji\graduation-project\my-graduation-project-web-admin\src\main\resources" />
+      <recent name="G:\yang\graduated_project\my-graduation-project-web-admin\src\main\resources\mapper" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -357,908 +271,159 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Tomcat Server.my-graduation-project-web-admin">
-    <configuration default="true" type="Application" factoryName="Application">
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="PaperServiceTest.testDeleteById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="my-graduation-project-web-admin" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cqupt.ysc.graduation.project.web.admin.service.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.cqupt.ysc.graduation.project.web.admin.service.test" />
-      <option name="MAIN_CLASS_NAME" value="com.cqupt.ysc.graduation.project.web.admin.service.test.PaperServiceTest" />
-      <option name="METHOD_NAME" value="testDeleteById" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="PaperServiceTest.testGetPaperById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="my-graduation-project-web-admin" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cqupt.ysc.graduation.project.web.admin.service.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.cqupt.ysc.graduation.project.web.admin.service.test" />
-      <option name="MAIN_CLASS_NAME" value="com.cqupt.ysc.graduation.project.web.admin.service.test.PaperServiceTest" />
-      <option name="METHOD_NAME" value="testGetPaperById" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="PaperServiceTest.testGetPapers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="my-graduation-project-web-admin" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cqupt.ysc.graduation.project.web.admin.service.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.cqupt.ysc.graduation.project.web.admin.service.test" />
-      <option name="MAIN_CLASS_NAME" value="com.cqupt.ysc.graduation.project.web.admin.service.test.PaperServiceTest" />
-      <option name="METHOD_NAME" value="testGetPapers" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="UserInfoServiceTest.testGetUserInfoByEmail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="my-graduation-project-web-admin" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cqupt.ysc.graduation.project.web.admin.service.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.cqupt.ysc.graduation.project.web.admin.service.test" />
-      <option name="MAIN_CLASS_NAME" value="com.cqupt.ysc.graduation.project.web.admin.service.test.UserInfoServiceTest" />
-      <option name="METHOD_NAME" value="testGetUserInfoByEmail" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="UserInfoServiceTest.testUpdate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="my-graduation-project-web-admin" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cqupt.ysc.graduation.project.web.admin.service.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.cqupt.ysc.graduation.project.web.admin.service.test" />
-      <option name="MAIN_CLASS_NAME" value="com.cqupt.ysc.graduation.project.web.admin.service.test.UserInfoServiceTest" />
-      <option name="METHOD_NAME" value="testUpdate" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration default="true" type="JUnit" factoryName="JUnit">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <properties />
-      <listeners />
-    </configuration>
-    <configuration name="my-graduation-project-web-admin" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.7" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
-      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
-      <deployment>
-        <artifact name="my-graduation-project-web-admin:war exploded">
-          <settings>
-            <option name="CONTEXT_PATH" value="/" />
-          </settings>
-        </artifact>
-      </deployment>
-      <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="Unnamed_graduation-project_2" />
-        <option name="DEPLOY_TOMCAT_APPS" value="true" />
-        <option name="PRESERVE_SESSIONS" value="true" />
-      </server-settings>
-      <predefined_log_file id="Tomcat" enabled="true" />
-      <predefined_log_file id="Tomcat Catalina" enabled="true" />
-      <predefined_log_file id="Tomcat Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="4128" />
-      </RunnerSettings>
-      <RunnerSettings RunnerId="JRebel Debug">
-        <option name="DEBUG_PORT" value="10558" />
-      </RunnerSettings>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="JRebel Debug">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="JRebel Executor">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <method>
-        <option name="BuildArtifacts" enabled="true">
-          <artifact name="my-graduation-project-web-admin:war exploded" />
-        </option>
-      </method>
-    </configuration>
-    <list>
-      <item itemvalue="Tomcat Server.my-graduation-project-web-admin" />
-      <item itemvalue="JUnit.UserInfoServiceTest.testGetUserInfoByEmail" />
-      <item itemvalue="JUnit.PaperServiceTest.testGetPapers" />
-      <item itemvalue="JUnit.PaperServiceTest.testGetPaperById" />
-      <item itemvalue="JUnit.PaperServiceTest.testDeleteById" />
-      <item itemvalue="JUnit.UserInfoServiceTest.testUpdate" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="JUnit.UserInfoServiceTest.testUpdate" />
-        <item itemvalue="JUnit.PaperServiceTest.testGetPaperById" />
-        <item itemvalue="JUnit.PaperServiceTest.testDeleteById" />
-        <item itemvalue="JUnit.PaperServiceTest.testGetPapers" />
-        <item itemvalue="JUnit.UserInfoServiceTest.testGetUserInfoByEmail" />
-      </list>
-    </recent_temporary>
-  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="06d921d4-dbf5-4b95-b497-2f2b694822e7" name="Default" comment="" />
-      <created>1552824385434</created>
+      <changelist id="ba9d27f2-1095-499a-ae73-00adacb03ff3" name="Default Changelist" comment="" />
+      <created>1555826292702</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1552824385434</updated>
-      <workItem from="1552824390032" duration="2003000" />
-      <workItem from="1552826429359" duration="1128000" />
-      <workItem from="1552827677906" duration="5338000" />
-      <workItem from="1552872666191" duration="804000" />
-      <workItem from="1552875887567" duration="3095000" />
-      <workItem from="1552963040700" duration="4356000" />
-      <workItem from="1553047924837" duration="1239000" />
-      <workItem from="1553068206206" duration="2933000" />
-      <workItem from="1553150665627" duration="9610000" />
-      <workItem from="1553219626142" duration="1277000" />
-      <workItem from="1553222645966" duration="6000" />
-      <workItem from="1553239115967" duration="1225000" />
-      <workItem from="1553411000719" duration="4521000" />
-      <workItem from="1553432303655" duration="6067000" />
-      <workItem from="1553483575140" duration="2445000" />
-      <workItem from="1553587843313" duration="6717000" />
-      <workItem from="1553759296991" duration="7160000" />
-      <workItem from="1553768050801" duration="177000" />
-      <workItem from="1553781925010" duration="1228000" />
-      <workItem from="1553828976123" duration="2320000" />
-      <workItem from="1553848715720" duration="2436000" />
-      <workItem from="1554166616675" duration="10092000" />
-      <workItem from="1554182765687" duration="184000" />
-      <workItem from="1554186199076" duration="10019000" />
-      <workItem from="1554255467937" duration="5978000" />
-      <workItem from="1554396729616" duration="82000" />
-      <workItem from="1554902768616" duration="6933000" />
-      <workItem from="1554914125367" duration="65000" />
-      <workItem from="1555056382843" duration="1469000" />
-      <workItem from="1555409236021" duration="3166000" />
-      <workItem from="1555499605668" duration="20989000" />
-      <workItem from="1555520941207" duration="7000" />
-      <workItem from="1555814840251" duration="3599000" />
+      <updated>1555826292702</updated>
+      <workItem from="1555826294196" duration="2914000" />
     </task>
     <servers />
   </component>
-  <component name="TestHistory">
-    <history-entry file="PaperServiceTest_testGetPaperById - 2019.04.11 at 00h 31m 20s.xml">
-      <configuration name="PaperServiceTest.testGetPaperById" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PaperServiceTest_testGetPaperById - 2019.04.11 at 00h 31m 58s.xml">
-      <configuration name="PaperServiceTest.testGetPaperById" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PaperServiceTest_testDeleteById - 2019.04.11 at 00h 32m 12s.xml">
-      <configuration name="PaperServiceTest.testDeleteById" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PaperServiceTest_testGetPaperById - 2019.04.11 at 00h 33m 05s.xml">
-      <configuration name="PaperServiceTest.testGetPaperById" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PaperServiceTest_testGetPaperById - 2019.04.11 at 00h 34m 23s.xml">
-      <configuration name="PaperServiceTest.testGetPaperById" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PaperServiceTest_testGetPaperById - 2019.04.12 at 16h 16m 48s.xml">
-      <configuration name="PaperServiceTest.testGetPaperById" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserInfoServiceTest_testUpdate - 2019.04.18 at 01h 04m 39s.xml">
-      <configuration name="UserInfoServiceTest.testUpdate" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserInfoServiceTest_testUpdate - 2019.04.18 at 01h 06m 19s.xml">
-      <configuration name="UserInfoServiceTest.testUpdate" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserInfoServiceTest_testUpdate - 2019.04.18 at 01h 07m 22s.xml">
-      <configuration name="UserInfoServiceTest.testUpdate" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserInfoServiceTest_testUpdate - 2019.04.21 at 10h 57m 57s.xml">
-      <configuration name="UserInfoServiceTest.testUpdate" configurationId="JUnit" />
-    </history-entry>
-  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="128668000" />
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
+    <option name="totallyTimeSpent" value="2914000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Application Servers" order="12" sideWeight="0.49865952" weight="0.32842416" />
-      <window_info anchor="bottom" id="JRebel Console" order="17" sideWeight="0.16152816" side_tool="true" weight="0.32842416" />
-      <window_info anchor="right" id="Maven Projects" order="9" weight="0.34852546" />
-      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="JRebel Executor" order="16" sideWeight="0.83847183" weight="0.4138439" />
-      <window_info id="Capture Tool" order="8" />
-      <window_info id="Designer" order="2" />
-      <window_info anchor="right" id="Database" order="5" />
+      <window_info id="Designer" />
+      <window_info id="Image Layers" />
+      <window_info id="Capture Tool" />
+      <window_info id="UI Designer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Web" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="5" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.27876106" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32842416" />
-      <window_info anchor="bottom" id="Messages" order="14" sideWeight="0.49329758" weight="0.42562592" />
-      <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info id="Image Layers" order="4" />
-      <window_info anchor="bottom" id="Java Enterprise" order="8" sideWeight="0.49932975" weight="0.32842416" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.35640648" />
-      <window_info anchor="bottom" id="Spring" order="13" sideWeight="0.49932975" weight="0.32842416" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49865952" weight="0.32842416" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25402144" />
-      <window_info anchor="bottom" id="Problems" order="15" weight="0.3298969" />
-      <window_info id="Web" order="7" side_tool="true" />
-      <window_info id="JRebel" order="3" side_tool="true" />
-      <window_info anchor="right" id="Theme Preview" order="7" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.3297587" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3298969" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Spring" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Message" order="0" />
-    </layout>
-    <layout-to-restore>
-      <window_info anchor="bottom" id="Application Servers" order="12" sideWeight="0.49865952" weight="0.32842416" />
-      <window_info id="Designer" order="2" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info id="JRebel" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Spring" order="13" sideWeight="0.49932975" weight="0.32842416" />
-      <window_info id="Image Layers" order="4" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.35640648" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49865952" weight="0.32842416" />
-      <window_info id="Capture Tool" order="8" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="14" sideWeight="0.49329758" weight="0.3240059" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32890856" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Problems" order="15" />
-      <window_info anchor="bottom" id="Java Enterprise" order="8" sideWeight="0.49932975" weight="0.32842416" />
-      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
-      <window_info anchor="right" id="Maven Projects" order="9" weight="0.34852546" />
-      <window_info anchor="bottom" id="JRebel Executor" order="16" sideWeight="0.83847183" visible="true" weight="0.37702504" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24865952" />
-      <window_info anchor="bottom" id="JRebel Console" order="17" sideWeight="0.16152816" side_tool="true" weight="0.32842416" />
-      <window_info anchor="right" id="Database" order="5" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info anchor="right" id="Theme Preview" order="7" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.3297587" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.27876106" />
-    </layout-to-restore>
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <option name="time" value="4" />
-    </breakpoint-manager>
-  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/my-graduation-project-domain/src/main/java/com/cqupt/ysc/graduation/project/domain/Project.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="15" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-graduation-project-domain/src/main/java/com/cqupt/ysc/graduation/project/domain/Dto/ProjectDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-graduation-project-domain/src/main/java/com/cqupt/ysc/graduation/project/domain/Reward.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="15" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-graduation-project-domain/src/main/java/com/cqupt/ysc/graduation/project/domain/Dto/RewardDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-graduation-project-domain/src/main/java/com/cqupt/ysc/graduation/project/domain/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="15" column="25" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="15" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-graduation-project-domain/src/main/java/com/cqupt/ysc/graduation/project/domain/Dto/UserInfoDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="14" column="23" lean-forward="true" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-graduation-project-domain/src/main/java/com/cqupt/ysc/graduation/project/domain/Dto/StudentDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-graduation-project-web-admin/src/main/java/com/cqupt/ysc/graduation/project/web/admin/dao/PaperDao.kt" />
-    <entry file="file://$PROJECT_DIR$/my-graduation-project-web-admin/src/main/java/com/cqupt/ysc/graduation/project/web/admin/dao/PatentDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-graduation-project-web-admin/src/main/java/com/cqupt/ysc/graduation/project/web/admin/dao/ProjectDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-graduation-project-web-admin/src/main/java/com/cqupt/ysc/graduation/project/web/admin/dao/RewardDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-graduation-project-web-admin/src/main/java/com/cqupt/ysc/graduation/project/web/admin/dao/StudentDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-graduation-project-web-admin/src/main/java/com/cqupt/ysc/graduation/project/web/admin/dao/UserInfoDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-graduation-project-web-admin/src/main/java/com/cqupt/ysc/graduation/project/web/admin/dao/TbUserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="35">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-graduation-project-web-admin/src/main/resources/mapper/TbUserMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="6" column="19" lean-forward="true" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-graduation-project-web-admin/src/main/java/com/cqupt/ysc/graduation/project/web/admin/service/TbUserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-graduation-project-web-admin/src/test/java/com/cqupt/ysc/graduation/project/web/admin/service/test/PaperServiceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="27" column="43" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-graduation-project-web-admin/src/main/java/com/cqupt/ysc/graduation/project/web/admin/web/interceptor/LoginInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-graduation-project-commons/src/main/java/com/cqupt/ysc/graduation/project/commons/constant/ConstantUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="3" column="17" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-graduation-project-web-admin/src/main/java/com/cqupt/ysc/graduation/project/web/admin/service/impl/TbUserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-graduation-project-web-admin/src/main/java/com/cqupt/ysc/graduation/project/web/admin/web/controller/LoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="56" column="7" selection-start-line="56" selection-start-column="7" selection-end-line="56" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-graduation-project-commons/src/main/java/com/cqupt/ysc/graduation/project/commons/constant/EmailUtils.java" />
-    <entry file="file://$PROJECT_DIR$/my-graduation-project-web-admin/src/main/java/com/cqupt/ysc/graduation/project/web/admin/web/controller/MainController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-graduation-project-web-admin/src/main/webapp/WEB-INF/includes/header.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-400">
-          <caret selection-end-line="1" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-graduation-project-web-admin/src/main/webapp/WEB-INF/includes/nav.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="35" column="106" selection-start-line="35" selection-start-column="44" selection-end-line="35" selection-end-column="106" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-graduation-project-web-admin/src/main/java/com/cqupt/ysc/graduation/project/web/admin/Utils/EmailUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-graduation-project-commons/src/main/java/com/cqupt/ysc/graduation/project/commons/constant/UrlUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-graduation-project-web-admin/src/main/webapp/WEB-INF/views/main.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="3" column="17" lean-forward="true" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-graduation-project-web-admin/src/main/webapp/WEB-INF/views/user_eduinfo.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1087">
-          <caret line="79" column="61" selection-start-line="79" selection-start-column="61" selection-end-line="79" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-graduation-project-web-admin/src/main/webapp/WEB-INF/views/user_info.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1148">
-          <caret line="8" column="4" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-graduation-project-commons/src/main/java/com/cqupt/ysc/graduation/project/commons/constant/TimeUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="10" column="56" lean-forward="true" selection-start-line="10" selection-start-column="56" selection-end-line="10" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-graduation-project-web-admin/src/main/webapp/WEB-INF/includes/menu.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="78" column="13" lean-forward="true" selection-start-line="78" selection-start-column="13" selection-end-line="78" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-graduation-project-web-admin/src/main/java/com/cqupt/ysc/graduation/project/web/admin/service/UserInfoService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-graduation-project-domain/src/main/java/com/cqupt/ysc/graduation/project/domain/Paper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-graduation-project-domain/src/main/java/com/cqupt/ysc/graduation/project/domain/Dto/PaperDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-graduation-project-web-admin/src/main/webapp/WEB-INF/views/research_paper.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2240">
-          <caret line="80" column="59" selection-start-line="80" selection-start-column="59" selection-end-line="80" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-graduation-project-web-admin/src/main/webapp/WEB-INF/views/paper_form.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2016">
-          <caret line="72" column="136" selection-start-line="72" selection-start-column="136" selection-end-line="72" selection-end-column="136" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-graduation-project-web-admin/src/main/java/com/cqupt/ysc/graduation/project/web/admin/service/impl/UserInfoServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1036">
-          <caret line="49" selection-start-line="49" selection-end-line="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-graduation-project-web-admin/src/main/java/com/cqupt/ysc/graduation/project/web/admin/web/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2240">
-          <caret line="92" column="32" selection-start-line="92" selection-start-column="32" selection-end-line="92" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-graduation-project-domain/src/main/java/com/cqupt/ysc/graduation/project/domain/UserInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-graduation-project-web-admin/src/main/resources/mapper/UserInfoMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1204">
-          <caret line="43" column="13" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-graduation-project-web-admin/src/test/java/com/cqupt/ysc/graduation/project/web/admin/service/test/UserInfoServiceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="25" column="36" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-graduation-project-web-admin/src/main/resources/mapper/PaperMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-graduation-project-web-admin/src/main/java/com/cqupt/ysc/graduation/project/web/admin/service/ResearchService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-graduation-project-web-admin/src/main/java/com/cqupt/ysc/graduation/project/web/admin/service/impl/ResearchServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="43" selection-start-line="43" selection-end-line="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-graduation-project-web-api/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-graduation-project-dependencies/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-graduation-project-web-admin/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="10" column="58" lean-forward="true" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="58" />
+        <state relative-caret-position="115">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/my-graduation-project-web-admin/src/main/java/com/cqupt/ysc/graduation/project/web/admin/dao/PaperDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="138">
+          <caret line="9" selection-start-line="9" selection-end-line="12" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my-graduation-project-web-admin/src/main/java/com/cqupt/ysc/graduation/project/web/admin/web/controller/ResearchController.java">
+    <entry file="file://$PROJECT_DIR$/my-graduation-project-domain/src/main/java/com/cqupt/ysc/graduation/project/domain/Reward.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="71" column="5" lean-forward="true" selection-start-line="71" selection-start-column="5" selection-end-line="71" selection-end-column="5" />
+        <state relative-caret-position="138">
+          <caret line="9" selection-start-line="9" selection-end-line="17" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-graduation-project-domain/src/main/java/com/cqupt/ysc/graduation/project/domain/Dto/PatentDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-graduation-project-domain/src/main/java/com/cqupt/ysc/graduation/project/domain/Patent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <last-edited>my-graduation-project-web-admin:war</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.5" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>Web</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>JRebel|my-graduation-project-web-admin</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>Maven: org.apache.commons:commons-lang3:3.5</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+    <entry file="file://$PROJECT_DIR$/my-graduation-project-web-admin/src/main/resources/mapper/PaperMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="28" column="20" lean-forward="true" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-graduation-project-web-admin/src/main/resources/mapper/PatentMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="15" column="23" lean-forward="true" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-graduation-project-web-admin/src/main/resources/mapper/RewardMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-graduation-project-web-admin/src/main/java/com/cqupt/ysc/graduation/project/web/admin/dao/PatentDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" column="19" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-graduation-project-web-admin/src/main/resources/mapper/ProjectMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" column="23" lean-forward="true" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-graduation-project-web-admin/src/main/java/com/cqupt/ysc/graduation/project/web/admin/dao/ProjectDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-graduation-project-web-admin/src/main/java/com/cqupt/ysc/graduation/project/web/admin/dao/RewardDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
