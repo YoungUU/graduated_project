@@ -7,7 +7,7 @@ import java.util.Date;
 
 @Data
 public class Patent implements Serializable {
-    private long id;
+    private Long id;
     private String patentName;
     private String patentNumber;
     private String author;

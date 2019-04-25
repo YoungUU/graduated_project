@@ -44,48 +44,48 @@
                         </div>
                         <!-- /.box-header -->
                         <!-- form start -->
-                        <form class="form-horizontal" action="/research/savePaper" method="post">
+                        <form class="form-horizontal" action="/research/${paper.id == null?"save":"edit"}Paper?id=${paper.id}" method="post">
                             <div class="box-body">
                                 <div class="form-group">
                                     <label class="col-sm-2 control-label">论文名称</label>
 
                                     <div class="col-sm-10">
-                                        <input type="text" class="form-control" name="paperName" placeholder="请输入论文名称">
+                                        <input type="text" class="form-control" name="paperName" value="${paper.paperName}" placeholder="${paper.id == null?"请输入论文名称":""}">
                                     </div>
                                 </div>
                                 <div class="form-group">
                                     <label class="col-sm-2 control-label">论文编号</label>
 
                                     <div class="col-sm-10">
-                                        <input type="text" class="form-control" name="number1" placeholder="请输入论文编号">
+                                        <input type="text" class="form-control" name="number1" value="${paper.number1}" placeholder="${paper.id == null?"请输入论文编号":""}">
                                     </div>
                                 </div>
                                 <div class="form-group">
                                     <label class="col-sm-2 control-label">论文地址</label>
 
                                     <div class="col-sm-10">
-                                        <input type="text" class="form-control" name="url" placeholder="请输入论文地址">
+                                        <input type="text" class="form-control" name="url" value="${paper.url}" placeholder="${paper.id == null?"请输入论文地址":""}">
                                     </div>
                                 </div>
                                 <div class="form-group">
                                     <label class="col-sm-2 control-label">发布时间</label>
 
                                     <div class="col-sm-10">
-                                        <input type="text" class="form-control" name="releaseTime" placeholder="请输入发布时间:格式2088*-08-88(说明)">
+                                        <input type="text" class="form-control" name="releaseTime" value="${paper.releaseTime}" placeholder="${paper.id == null?"请输入发布时间:格式2088*-08-88(说明)":""}">
                                     </div>
                                 </div>
                                 <div class="form-group">
                                     <label class="col-sm-2 control-label">发布人</label>
 
                                     <div class="col-sm-10">
-                                        <input type="text" class="form-control" name="author" placeholder="请输入发布人">
+                                        <input type="text" class="form-control" name="author" value="${paper.author}" placeholder="${paper.id == null?"请输入发布人" : ""}">
                                     </div>
                                 </div>
                                 <div class="form-group">
                                     <label class="col-sm-2 control-label">论文状态</label>
 
                                     <div class="col-sm-10">
-                                        <input type="text" class="form-control" name="status" placeholder="请输入论文状态">
+                                        <input type="text" class="form-control" name="status" value="${paper.status}" placeholder="${paper.id == null?"请输入论文状态" : ""}">
                                     </div>
                                 </div>
                             </div>

@@ -7,10 +7,10 @@ import java.util.Date;
 
 @Data
 public class Reward implements Serializable {
-    private long id;
-    private Date getime;
+    private Long id;
+    private String getime;
     private String context;
-    private String reward_name;
+    private String rewardName;
     private String level;
     private short delFlg;
     private String email;

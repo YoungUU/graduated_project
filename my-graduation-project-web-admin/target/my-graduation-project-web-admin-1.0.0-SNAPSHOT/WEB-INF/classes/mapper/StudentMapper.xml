@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.cqupt.ysc.graduation.project.web.admin.dao.StudentDao">
+    <select id="getStudents" resultType="com.cqupt.ysc.graduation.project.domain.Student">
+        SELECT id,stu_name,stu_num,stu_grade,stu_number,stu_phone,email,del_flg,created,updated
+        FROM student
+        WHERE email = #{email} and del_flg = 0
+    </select>
+    <select id="getStudentById" resultType="com.cqupt.ysc.graduation.project.domain.Student">
+        SELECT id,stu_name,stu_num,stu_grade,stu_number,stu_phone,email,del_flg,created,updated
+        FROM student
+        WHERE id=#{id}
+    </select>
+    <update id="deleteStudentById">
+        update student
+        set del_flg = 1
+        WHERE id = #{id}
+    </update>
+
+    <insert id="saveStudent" parameterType="com.cqupt.ysc.graduation.project.domain.Student">
+        INSERT INTO student(stu_name,stu_num,stu_grade,stu_number,stu_phone,email,del_flg,created,updated)
+        VALUES(#{stuName},#{stuNum},#{stuGrade},#{stuNumber},#{stuPhone},#{email},0,#{created},#{updated})
+    </insert>
+
+    <update id="updateStudentById" parameterType="com.cqupt.ysc.graduation.project.domain.Student">
+        update student
+        set
+        <if test="stuName !=null and stuName !=''">
+            stu_name = #{stuName},
+        </if>
+        <if test="stuNum !=null and stuNum !=''">
+            stu_num = #{stuNum},
+        </if>
+        <if test="stuGrade !=null and stuGrade !=''">
+            stu_grade = #{stuGrade},
+        </if>
+        <if test="stuNumber !=null and stuNumber !=''">
+            stu_number = #{stuNumber},
+        </if>
+        <if test="stuPhone !=null and stuPhone !=''">
+            stu_phone = #{stuPhone},
+        </if>
+        updated = #{updated}
+        where id = #{id}
+    </update>
+</mapper>

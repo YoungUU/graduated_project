@@ -47,37 +47,37 @@
                     <div class="box-body">
                         <div class="form-group">
                             <label>毕业院校</label>
-                            <input class="form-control" name="username" placeholder="${ userInfo.graduatedSchool}">
+                            <input class="form-control" name="username" value="${ userInfo.graduatedSchool}">
                         </div>
 
                         <div class="form-group">
                             <label>学历</label>
-                            <input class="form-control" name="namePinyin" placeholder="${userInfo.education}">
+                            <input class="form-control" name="namePinyin" value="${userInfo.education}">
                         </div>
 
                         <div class="form-group">
                             <label>学位</label>
-                            <input class="form-control" name="englishName" placeholder="${userInfo.academicDegree}">
+                            <input class="form-control" name="englishName" value="${userInfo.academicDegree}">
                         </div>
 
                         <div class="form-group">
                             <label>在职信息</label>
-                            <input type="email" class="form-control" name="exampleInputEmail1" placeholder="${userInfo.incumbencyInformation}">
+                            <input type="text" class="form-control" name="exampleInputEmail1" value="${userInfo.incumbencyInformation}">
                         </div>
 
                         <div class="form-group">
                             <label>所在单位</label>
-                            <input  class="form-control"  placeholder="${userInfo.company}">
+                            <input  class="form-control"  value="${userInfo.company}">
                         </div>
 
                         <div class="form-group">
                             <label>主要职位</label>
-                            <input class="form-control" name="mainPosts" placeholder="${userInfo.mainPosts}">
+                            <input class="form-control" name="mainPosts" value="${userInfo.mainPosts}">
                         </div>
 
                         <div class="form-group">
                             <label>其他任职</label>
-                            <input class="form-control" name ="otherPosts"placeholder="${userInfo.otherPosts}">
+                            <input class="form-control" name ="otherPosts" value="${userInfo.otherPosts}">
                         </div>
                     </div>
                     <!-- /.box-body -->

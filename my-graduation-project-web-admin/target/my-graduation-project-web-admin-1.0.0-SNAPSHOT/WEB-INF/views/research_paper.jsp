@@ -44,20 +44,21 @@
                             <h3 class="box-title">论文管理</h3>
 
                             <div class="row" style="padding-left: 12px; padding-top: 10px">
-                                <a href="/research/form" type="button" class="btn  btn-sm btn-default"><i class="fa fa-plus-square"></i>新增</a>&nbsp;
-                                <a href="#" type="button" class="btn  btn-sm btn-default"><i class="fa fa-trash-o"></i>删除</a>&nbsp;
-                                <a href="#" type="button" class="btn  btn-sm btn-default"><i class="fa fa-download"></i>导入</a>&nbsp;
-                                <a href="#" type="button" class="btn  btn-sm btn-default"><i class="fa fa-upload"></i>导出</a>&nbsp;
+                                <a href="/research/formPaper" type="button" class="btn  btn-sm btn-default"><i class="fa fa-plus-square"></i>新增</a>&nbsp;
+                                <a href="/research/formPatent" type="button" class="btn  btn-sm btn-default"><i class="fa fa-download"></i>导入</a>&nbsp;
+                                <a href="/research/formProject" type="button" class="btn  btn-sm btn-default"><i class="fa fa-upload"></i>导出</a>&nbsp;
                             </div>
 
                             <div class="box-tools">
-                                <div class="input-group input-group-sm" style="width: 150px;">
-                                    <input type="text" name="table_search" class="form-control pull-right" placeholder="搜索">
+                                <form action="/research/searchPaper" method="post">
+                                    <div class="input-group input-group-sm" style="width: 150px;">
+                                        <input type="text" name="keyword" class="form-control pull-right" placeholder="搜索">
 
-                                    <div class="input-group-btn">
-                                        <button type="submit" class="btn btn-default"><i class="fa fa-search"></i></button>
+                                        <div class="input-group-btn">
+                                            <button type="submit" class="btn btn-default"><i class="fa fa-search"></i></button>
+                                        </div>
                                     </div>
-                                </div>
+                                </form>
                             </div>
                         </div>
                         <!-- /.box-header -->
@@ -82,9 +83,8 @@
                                         <td>${paper.author}</td>
                                         <td>${paper.status}</td>
                                         <td>
-                                            <a href="#" type="button" class="btn  btn-sm btn-primary"><i class="fa fa-edit"></i>编辑</a>&nbsp;
-                                            <a href="#" type="button" class="btn  btn-sm btn-info"><i class="fa fa-arrow-up"></i>置顶</a>&nbsp;
-                                            <a href="/research/delete?id=${paper.id}" type="button" class="btn  btn-sm btn-danger"><i class="fa  fa-trash-o"></i>删除</a>&nbsp;
+                                            <a href="/research/formPaper?id=${paper.id}" type="button" class="btn  btn-sm btn-primary"><i class="fa fa-edit"></i>编辑</a>&nbsp;
+                                            <a href="/research/deletePaper?id=${paper.id}" type="button" class="btn  btn-sm btn-danger"><i class="fa  fa-trash-o"></i>删除</a>&nbsp;
                                         </td>
                                     </tr>
                                 </c:forEach>

@@ -7,7 +7,7 @@ import java.util.Date;
 
 @Data
 public class Project implements Serializable {
-    private long id;
+    private Long id;
     private String projectName;
     private String mainPerson;
     private String context;

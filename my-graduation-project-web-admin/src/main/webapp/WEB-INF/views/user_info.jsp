@@ -48,17 +48,17 @@
                         <%--姓名 姓名拼音 英文名--%>
                         <div class="form-group">
                             <label>姓名</label>
-                            <input class="form-control" name="username" placeholder="${ userInfo.username}">
+                            <input class="form-control" name="username" value="${ userInfo.username}">
                         </div>
 
                         <div class="form-group">
                             <label>姓名拼音</label>:请输入您名字的拼音（以便模糊查找）
-                            <input class="form-control" name="namePinyin" placeholder="${userInfo.namePinyin}">
+                            <input class="form-control" name="namePinyin" value="${userInfo.namePinyin}">
                         </div>
 
                         <div class="form-group">
                             <label>英文名</label>:请输入您的英文名
-                            <input class="form-control" name="englishName" placeholder="${userInfo.englishName}">
+                            <input class="form-control" name="englishName" value="${userInfo.englishName}">
                         </div>
 
                         <!-- 男女选择 -->

@@ -24,7 +24,7 @@
         a.created,
         a.updated
         FROM
-        paper AS a0
+        paper AS a
         WHERE
         a.id = #{id}
     </select>
@@ -35,8 +35,62 @@
         WHERE id = #{id}
     </select>
 
-    <select id="insertPaper">
+    <select id="savePaper">
     INSERT INTO paper(paper_name,number1,release_time,ordernum ,status,author,url,source,email,del_flg,created,updated)
     VALUES (#{paperName},#{number1},#{releaseTime},#{ordernum},#{status},#{author},#{url},#{source},#{email},#{delFlg},#{created},#{updated})
+    </select>
+
+    <update id="updatePaper">
+        update paper
+        set
+        <if test="paperName !=null and paperName !=''">
+            paper_name = #{paperName},
+        </if>
+        <if test="number1 !=null and number1 !=''">
+            number1 = #{number1},
+        </if>
+        <if test="releaseTime !=null and releaseTime !=''">
+            release_time = #{releaseTime},
+        </if>
+        <if test="status !=null and status !=''">
+            status = #{status},
+        </if>
+        <if test="author !=null and author !=''">
+            author = #{author},
+        </if>
+        <if test="url != null and url !=''">
+            url = #{url},
+        </if>
+        updated = #{updated}
+        where id = #{id}
+    </update>
+    <select id="searchPaper" resultType="com.cqupt.ysc.graduation.project.domain.Paper">
+        SELECT
+        a.id,
+        a.paper_name,
+        a.number1,
+        a.release_time,
+        a.ordernum,
+        a.status,
+        a.author,
+        a.url,
+        a.source,
+        a.del_flg,
+        a.created,
+        a.updated
+        FROM
+        paper AS a
+        <where>
+            <if test="paperName != null and paperName !=''">
+                OR a.paper_name LIKE CONCAT ('%',#{paperName},'%')
+            </if>
+            <if test="author != null and author !=''">
+                OR a.author LIKE CONCAT ('%',#{author},'%')
+            </if>
+            <if test="status != null and status !=''">
+                OR a.status LIKE CONCAT ('%',#{status},'%')
+            </if>
+            and a.del_flg = 0
+        </where>
     </select>
 </mapper>

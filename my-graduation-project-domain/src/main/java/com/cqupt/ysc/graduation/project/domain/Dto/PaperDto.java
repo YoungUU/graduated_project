@@ -12,7 +12,7 @@ public class PaperDto implements Serializable {
     private String number1;
     private String url;
     private String releaseTime;
-    private int ordernum;
+    private Integer ordernum;
     private String status;
     private String author;
     private String source;

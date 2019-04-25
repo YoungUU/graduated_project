@@ -12,7 +12,7 @@ public class UserInfoDto implements Serializable {
     private String namePinyin;
     private String englishName;
     private String pic;
-    private int gender;
+    private Integer gender;
     private String phone;
     private String graduatedSchool;
     private String education;

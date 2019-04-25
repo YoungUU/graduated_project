@@ -7,10 +7,11 @@ import java.util.Date;
 
 @Data
 public class Student implements Serializable {
-    private long id;
-    private int stuNum;//学号
+    private Long id;
+    private String stuName;
+    private Integer stuNum;//学号
     private String stuGrade;
-    private int stuNumber;//学生排名
+    private Integer stuNumber;//学生排名
     private String stuPhone;
     private short delFlg;
     private String email;
