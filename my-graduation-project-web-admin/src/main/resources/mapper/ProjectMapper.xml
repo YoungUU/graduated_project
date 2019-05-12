@@ -37,4 +37,28 @@
         updated = #{updated}
         where id = #{id}
     </update>
+
+    <select id="searchProject" resultType="com.cqupt.ysc.graduation.project.domain.Project">
+        SELECT
+        a.id,
+        a.project_name,
+        a.main_person,
+        a.context,
+        a.scale,
+        a.del_flg,
+        a.email,
+        a.created,
+        a.updated
+        FROM
+        project AS a
+        <where>
+            <if test="projectName != null and projectName !=''">
+                OR a.project_name LIKE CONCAT ('%',#{projectName},'%')
+            </if>
+            <if test="mainPerson != null and mainPerson !=''">
+                OR a.main_person LIKE CONCAT ('%',#{mainPerson},'%')
+            </if>
+            and a.del_flg = 0
+        </where>
+    </select>
 </mapper>

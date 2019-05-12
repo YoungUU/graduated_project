@@ -45,8 +45,8 @@
 
                             <div class="row" style="padding-left: 12px; padding-top: 10px">
                                 <a href="/research/formPaper" type="button" class="btn  btn-sm btn-default"><i class="fa fa-plus-square"></i>新增</a>&nbsp;
-                                <a href="/research/formPatent" type="button" class="btn  btn-sm btn-default"><i class="fa fa-download"></i>导入</a>&nbsp;
-                                <a href="/research/formProject" type="button" class="btn  btn-sm btn-default"><i class="fa fa-upload"></i>导出</a>&nbsp;
+                                <a href="/research/uploadExcel" type="button" class="btn  btn-sm btn-default"><i class="fa fa-download"></i>导入</a>&nbsp;
+                                <a href="#" type="button" class="btn  btn-sm btn-default"><i class="fa fa-upload"></i>导出</a>&nbsp;
                             </div>
 
                             <div class="box-tools">
@@ -84,6 +84,7 @@
                                         <td>${paper.status}</td>
                                         <td>
                                             <a href="/research/formPaper?id=${paper.id}" type="button" class="btn  btn-sm btn-primary"><i class="fa fa-edit"></i>编辑</a>&nbsp;
+                                            <a href="/research/paperToTop?id=${paper.id}" type="button" class="btn  btn-sm btn-success"><i class="fa  fa-trash-o"></i>置顶</a>&nbsp;
                                             <a href="/research/deletePaper?id=${paper.id}" type="button" class="btn  btn-sm btn-danger"><i class="fa  fa-trash-o"></i>删除</a>&nbsp;
                                         </td>
                                     </tr>

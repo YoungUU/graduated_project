@@ -61,6 +61,9 @@
         <if test="url != null and url !=''">
             url = #{url},
         </if>
+        <if test="ordernum != null and ordernum !=''">
+            ordernum = #{ordernum},
+        </if>
         updated = #{updated}
         where id = #{id}
     </update>

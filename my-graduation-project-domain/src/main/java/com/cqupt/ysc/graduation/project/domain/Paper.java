@@ -6,7 +6,8 @@ import java.io.Serializable;
 import java.util.Date;
 
 @Data
-public class Paper implements Serializable {
+public class Paper implements Serializable,Comparable<Paper>{
+
     private Long id;
     private String paperName;
     private String number1;
@@ -20,4 +21,11 @@ public class Paper implements Serializable {
     private short delFlg;
     private Date created;
     private Date updated;
+
+    @Override
+    public int compareTo(Paper o) {
+        if (this.ordernum < o.getOrdernum()){
+            return 1;
+        }else return -1;
+    }
 }

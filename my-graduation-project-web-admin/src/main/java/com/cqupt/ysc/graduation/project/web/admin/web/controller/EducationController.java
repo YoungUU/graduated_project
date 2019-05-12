@@ -17,7 +17,7 @@ import java.util.List;
 
 @Controller
 @RequestMapping(value = "education")
-public class educationController {
+public class EducationController {
 
     @Autowired
     EducationService educationService;
@@ -71,6 +71,18 @@ public class educationController {
     }
 
     /**
+     * @param keyword
+     * @param model
+     * @return
+     */
+    @RequestMapping(value = "searchReward",method = RequestMethod.POST)
+    public String searchReward(String keyword, Model model){
+        List<Reward> rewards = educationService.searchReward(keyword);
+        model.addAttribute("rewards",rewards);
+        return "education_reward";
+    }
+
+    /**
      *所有Student对外接口
      */
     @RequestMapping(value = "student")
@@ -115,6 +127,18 @@ public class educationController {
         studentDto.setId(id);
         educationService.updateStudentById(studentDto);
         return "redirect:/education/student";
+    }
+
+    /**
+     * @param keyword
+     * @param model
+     * @return
+     */
+    @RequestMapping(value = "searchStudent",method = RequestMethod.POST)
+    public String searchProject(String keyword, Model model){
+        List<Student> students = educationService.searchStudent(keyword);
+        model.addAttribute("students",students);
+        return "education_student";
     }
 
 }

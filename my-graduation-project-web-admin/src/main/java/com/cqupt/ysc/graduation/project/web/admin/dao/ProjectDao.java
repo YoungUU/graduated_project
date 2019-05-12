@@ -14,4 +14,5 @@ public interface ProjectDao {
     void deleteProjectById(long id);
     void saveProject(Project project);
     void updateProjectById(Project project);
+    List<Project> searchProject(Project project);
 }

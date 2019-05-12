@@ -43,4 +43,29 @@
         updated = #{updated}
         where id = #{id}
     </update>
+
+    <select id="searchStudent" resultType="com.cqupt.ysc.graduation.project.domain.Student">
+        SELECT
+        a.id,
+        a.stu_name,
+        a.stu_num,
+        a.stu_grade,
+        a.stu_number,
+        a.stu_phone,
+        a.del_flg,
+        a.email,
+        a.created,
+        a.updated
+        FROM
+        patent AS a
+        <where>
+            <if test="stuName != null and stuName !=''">
+                OR a.stu_name LIKE CONCAT ('%',#{stuName},'%')
+            </if>
+            <if test="stuNum != null and stuNum !=''">
+                OR a.stu_num LIKE CONCAT ('%',#{stuNum},'%')
+            </if>
+            and a.del_flg = 0
+        </where>
+    </select>
 </mapper>

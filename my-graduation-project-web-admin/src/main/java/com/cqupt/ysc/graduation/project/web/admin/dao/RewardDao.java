@@ -12,4 +12,5 @@ public interface RewardDao {
     void deleteRewardById(long id);
     void saveReward(Reward reward);
     void updateRewardById(Reward reward);
+    List<Reward> searchReward(Reward reward);
 }

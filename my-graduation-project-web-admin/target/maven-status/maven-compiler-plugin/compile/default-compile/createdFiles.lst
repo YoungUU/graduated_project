@@ -13,6 +13,7 @@ com\cqupt\ysc\graduation\project\web\admin\dao\PatentDao.class
 com\cqupt\ysc\graduation\project\web\admin\dao\ProjectDao.class
 com\cqupt\ysc\graduation\project\web\admin\service\impl\TbUserServiceImpl.class
 com\cqupt\ysc\graduation\project\web\admin\dao\RewardDao.class
+com\cqupt\ysc\graduation\project\web\admin\exceptions\NotExcelFileException.class
 com\cqupt\ysc\graduation\project\web\admin\dao\StudentDao.class
 com\cqupt\ysc\graduation\project\web\admin\service\impl\UserInfoServiceImpl.class
 com\cqupt\ysc\graduation\project\web\admin\service\EducationService.class
@@ -20,4 +21,5 @@ com\cqupt\ysc\graduation\project\web\admin\dao\TbUserDao.class
 com\cqupt\ysc\graduation\project\web\admin\service\impl\ResearchServiceImpl.class
 com\cqupt\ysc\graduation\project\web\admin\service\ResearchService.class
 com\cqupt\ysc\graduation\project\web\admin\dao\UserInfoDao.class
+com\cqupt\ysc\graduation\project\web\admin\Utils\ExcelUtils.class
 com\cqupt\ysc\graduation\project\web\admin\web\controller\educationController.class

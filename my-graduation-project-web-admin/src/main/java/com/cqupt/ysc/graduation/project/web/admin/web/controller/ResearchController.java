@@ -7,14 +7,19 @@ import com.cqupt.ysc.graduation.project.domain.Paper;
 import com.cqupt.ysc.graduation.project.domain.Patent;
 import com.cqupt.ysc.graduation.project.domain.Project;
 import com.cqupt.ysc.graduation.project.web.admin.Utils.EmailUtils;
+import com.cqupt.ysc.graduation.project.web.admin.Utils.ExcelUtils;
 import com.cqupt.ysc.graduation.project.web.admin.service.ResearchService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
-import javax.servlet.http.HttpServletRequest;
+import org.springframework.web.multipart.MultipartFile;
 
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import java.util.Collections;
 import java.util.List;
 
 @Controller
@@ -22,6 +27,15 @@ import java.util.List;
 public class ResearchController {
     @Autowired
     private ResearchService researchService;
+    static private Integer paperOrdNum;
+
+
+    @RequestMapping("/uploadExcel")// 上传学生名单  创建班集体
+    public String getExcel(HttpServletRequest request, HttpServletResponse reponse, MultipartFile file){
+        List<Paper> papers = ExcelUtils.getListByExcelFile(file);
+
+        return "research_paper";
+    }
 
     /**
      *所有Paper对外接口
@@ -31,6 +45,8 @@ public class ResearchController {
     public String getPapers(HttpServletRequest httpServletRequest,Model model){
         String email = EmailUtils.getUserEmail(httpServletRequest);
         List<Paper> papers = researchService.getPapers(email);
+        Collections.sort(papers);
+        paperOrdNum = papers.get(0).getOrdernum();
         model.addAttribute("papers",papers);
         return "research_paper";
     }
@@ -58,6 +74,7 @@ public class ResearchController {
         }
 
         paperDto.setEmail(EmailUtils.getUserEmail(httpServletRequest));
+        paperDto.setOrdernum(paperOrdNum+1);
 
         //封装完成，进行插入。
         researchService.savePaper(paperDto);
@@ -84,12 +101,32 @@ public class ResearchController {
         return "redirect:/research/paper";
     }
 
+    /**
+     * 模糊查询
+     * @param keyword
+     * @param model
+     * @return
+     */
     @RequestMapping(value = "searchPaper",method = RequestMethod.POST)
     public String searchPaper(String keyword, Model model){
         List<Paper> papers = researchService.searchPaper(keyword);
         model.addAttribute("papers",papers);
         return "research_paper";
     }
+
+    /**
+     * 论文置顶
+     */
+    @RequestMapping(value = "paperToTop",method = RequestMethod.GET)
+    public String paperToTop(Long id){
+        PaperDto paperDto = new PaperDto();
+        paperDto.setId(id);
+        paperDto.setOrdernum(paperOrdNum+1);
+        System.out.println(paperDto);
+        researchService.updatePaperById(paperDto);
+        return "redirect:/research/paper";
+    }
+
 
     /**
      *所有Patent对外接口
@@ -139,6 +176,19 @@ public class ResearchController {
     }
 
     /**
+     * 模糊查询
+     * @param keyword
+     * @param model
+     * @return
+     */
+    @RequestMapping(value = "searchPatent",method = RequestMethod.POST)
+    public String searchPatent(String keyword, Model model){
+        List<Patent> patents = researchService.searchPatent(keyword);
+        model.addAttribute("patents",patents);
+        return "research_patent";
+    }
+
+    /**
      *所有Project对外接口
      */
     @RequestMapping(value = "project")
@@ -184,5 +234,18 @@ public class ResearchController {
         projectDto.setId(id);
         researchService.updateProjectById(projectDto);
         return "redirect:/research/project";
+    }
+
+    /**
+     * 模糊查询
+     * @param keyword
+     * @param model
+     * @return
+     */
+    @RequestMapping(value = "searchProject",method = RequestMethod.POST)
+    public String searchProject(String keyword, Model model){
+        List<Project> projects = researchService.searchProject(keyword);
+        model.addAttribute("projects",projects);
+        return "research_project";
     }
 }

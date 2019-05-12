@@ -127,6 +127,14 @@ public class ResearchServiceImpl implements ResearchService {
         patentDao.updatePatentById(patent);
     }
 
+    @Override
+    public List<Patent> searchPatent(String keyword) {
+        Patent patent = new Patent();
+        patent.setAuthor(keyword);
+        patent.setPatentName(keyword);
+        return patentDao.searchPatent(patent);
+    }
+
     /**
      *Project所有操作
      */
@@ -167,5 +175,13 @@ public class ResearchServiceImpl implements ResearchService {
         BeanUtils.copyProperties(projectDto,project);
         project.setUpdated(TimeUtils.getSystemTime());
         projectDao.updateProjectById(project);
+    }
+
+    @Override
+    public List<Project> searchProject(String keyword) {
+        Project project = new Project();
+        project.setMainPerson(keyword);
+        project.setProjectName(keyword);
+        return projectDao.searchProject(project);
     }
 }

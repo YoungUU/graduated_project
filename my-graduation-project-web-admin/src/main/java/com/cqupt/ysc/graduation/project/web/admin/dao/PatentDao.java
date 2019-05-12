@@ -13,4 +13,5 @@ public interface PatentDao {
     void deletePatentById(long id);
     void savePatent(Patent patent);
     void updatePatentById(Patent patent);
+    List<Patent> searchPatent(Patent patent);
 }

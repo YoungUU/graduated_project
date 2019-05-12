@@ -41,4 +41,27 @@
         where id = #{id}
     </update>
 
+    <select id="searchReward" resultType="com.cqupt.ysc.graduation.project.domain.Reward">
+        SELECT
+        a.id,
+        a.getime,
+        a.context,
+        a.reward_name,
+        a.level,
+        a.del_flg,
+        a.email,
+        a.created,
+        a.updated
+        FROM
+        reward AS a
+        <where>
+            <if test="rewardName != null and rewardName !=''">
+                OR a.reward_name LIKE CONCAT ('%',#{rewardName},'%')
+            </if>
+            <if test="context != null and context !=''">
+                OR a.context LIKE CONCAT ('%',#{context},'%')
+            </if>
+            and a.del_flg = 0
+        </where>
+    </select>
 </mapper>

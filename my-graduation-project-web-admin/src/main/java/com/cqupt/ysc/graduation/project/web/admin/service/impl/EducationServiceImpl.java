@@ -8,6 +8,7 @@ import com.cqupt.ysc.graduation.project.domain.Student;
 import com.cqupt.ysc.graduation.project.web.admin.dao.RewardDao;
 import com.cqupt.ysc.graduation.project.web.admin.dao.StudentDao;
 import com.cqupt.ysc.graduation.project.web.admin.service.EducationService;
+import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -64,6 +65,13 @@ public class EducationServiceImpl implements EducationService {
         rewardDao.updateRewardById(reward);
     }
 
+    @Override
+    public List<Reward> searchReward(String keyword) {
+        Reward reward = new Reward();
+        reward.setRewardName(keyword);
+        reward.setContext(keyword);
+        return rewardDao.searchReward(reward);
+    }
 
 
     /**
@@ -106,5 +114,13 @@ public class EducationServiceImpl implements EducationService {
         BeanUtils.copyProperties(studentDto,student);
         student.setUpdated(TimeUtils.getSystemTime());
         studentDao.updateStudentById(student);
+    }
+
+    @Override
+    public List<Student> searchStudent(String keyword) {
+        Student student = new Student();
+        student.setStuName(keyword);
+        student.setStuNum(Integer.parseInt(keyword));
+        return studentDao.searchStudent(student);
     }
 }

@@ -14,6 +14,7 @@ public interface EducationService {
     void deleteRewardById(long id);
     String saveReward(RewardDto rewardDto);
     void updateRewardById(RewardDto rewardDto);
+    List<Reward> searchReward(String keyword);
 
     //学生管理
     List<Student> getStudents(String email);
@@ -21,4 +22,5 @@ public interface EducationService {
     void deleteStudentById(long id);
     String saveStudent(StudentDto studentDto);
     void updateStudentById(StudentDto tudentDto);
+    List<Student> searchStudent(String keyword);
 }

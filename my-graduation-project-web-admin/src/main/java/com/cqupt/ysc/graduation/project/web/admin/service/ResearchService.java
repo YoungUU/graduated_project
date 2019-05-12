@@ -27,6 +27,7 @@ public interface ResearchService {
     void deletePatentById(long id);
     String savePatent(PatentDto patentDto);
     void updatePatentById(PatentDto patentDto);
+    List<Patent> searchPatent(String keyword);
 
     //研究项目管理
     List<Project> getProjects(String email);
@@ -34,4 +35,5 @@ public interface ResearchService {
     void deleteProjectById(long id);
     String saveProject(ProjectDto projectDto);
     void updateProjectById(ProjectDto projectDto);
+    List<Project> searchProject(String keyword);
 }
