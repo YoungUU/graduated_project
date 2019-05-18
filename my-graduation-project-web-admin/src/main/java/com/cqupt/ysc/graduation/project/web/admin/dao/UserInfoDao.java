@@ -7,4 +7,5 @@ import org.springframework.stereotype.Repository;
 public interface UserInfoDao {
     UserInfo getUserInfoByEmail(String email);
     void updateUserInfoByEmail(UserInfo userInfo);
+    UserInfo search(UserInfo userInfo);
 }

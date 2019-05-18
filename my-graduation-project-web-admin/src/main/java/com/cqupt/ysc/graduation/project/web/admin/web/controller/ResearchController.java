@@ -8,6 +8,7 @@ import com.cqupt.ysc.graduation.project.domain.Patent;
 import com.cqupt.ysc.graduation.project.domain.Project;
 import com.cqupt.ysc.graduation.project.web.admin.Utils.EmailUtils;
 import com.cqupt.ysc.graduation.project.web.admin.Utils.ExcelUtils;
+import com.cqupt.ysc.graduation.project.web.admin.Utils.ExportExcelUtil;
 import com.cqupt.ysc.graduation.project.web.admin.service.ResearchService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -19,6 +20,7 @@ import org.springframework.web.multipart.MultipartFile;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
@@ -30,11 +32,37 @@ public class ResearchController {
     static private Integer paperOrdNum;
 
 
-    @RequestMapping("/uploadExcel")// 上传学生名单  创建班集体
-    public String getExcel(HttpServletRequest request, HttpServletResponse reponse, MultipartFile file){
+    @RequestMapping("/uploadExcel")
+    public String getExcel(HttpServletRequest request, MultipartFile file){
         List<Paper> papers = ExcelUtils.getListByExcelFile(file);
+        String email = EmailUtils.getUserEmail(request);
+        researchService.savePapers(papers ,email,paperOrdNum);
+        return "redirect:/research/paper";
+    }
 
-        return "research_paper";
+    @RequestMapping(value = "/exportExcel")
+    public String exportExcel(HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse) throws Exception {
+        String email = EmailUtils.getUserEmail(httpServletRequest);
+        List<Paper> papers = researchService.getPapers(email);
+
+        String title = "papar";
+
+        List<Object[]>  dataList = new ArrayList<Object[]>();
+        for (int i = 0;i<papers.size();i++){
+            String[] string = papers.get(i).toString().split(",");
+            for (int j = 0 ;j<string.length;j++){
+                if (string[j].split("=").length == 1){
+                    string[j] = string[j].split("=")[0];
+                }else string[j] = string[j].split("=")[1];
+            }
+            dataList.add(string);
+        }
+
+        String[] rowName = {"id","论文名","编号","url","发布时间","顺序","状态","作者","发布者","email","删除标志","创建时间","更新时间"};
+        ExportExcelUtil exportExcelUtil = new ExportExcelUtil(title, rowName,dataList, httpServletRequest, httpServletResponse);
+        exportExcelUtil.exportData();
+
+        return "redirect:/research/paper";
     }
 
     /**

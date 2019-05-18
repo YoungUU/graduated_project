@@ -71,7 +71,7 @@
                 </a>
                 <ul class="treeview-menu">
                     <li><a href="/mould/moulds"><i class="fa fa-circle-o"></i>模板预览</a></li>
-                    <li><a href="#"><i class="fa fa-circle-o"></i>我的模板</a></li>
+                    <li><a target="_blank" href="/visitor/search"><i class="fa fa-circle-o"></i>我的模板</a></li>
                 </ul>
             </li>
 

@@ -12,6 +12,8 @@
         <property name="configLocation" value="classpath:/mybatis-config.xml"></property>
     </bean>
 
+
+
     <!-- 扫描 Mapper -->
     <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
         <property name="basePackage" value="com.cqupt.ysc.graduation.project.web.admin.dao" />

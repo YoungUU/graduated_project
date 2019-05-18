@@ -85,6 +85,17 @@ public class ResearchServiceImpl implements ResearchService {
         return paperDao.searchPaper(paper);
     }
 
+    @Override
+    public void savePapers(List<Paper> papers,String email,Integer paperOrdNum) {
+        for (int i = 0;i<papers.size();i++){
+            papers.get(i).setEmail(email);
+            papers.get(i).setUpdated(TimeUtils.getSystemTime());
+            papers.get(i).setCreated(TimeUtils.getSystemTime());
+            papers.get(i).setOrdernum(paperOrdNum+1);
+            paperDao.savePaper(papers.get(i));
+        }
+    }
+
     /**
      *Patent所有操作
      */

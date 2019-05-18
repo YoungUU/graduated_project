@@ -8,12 +8,18 @@ import org.springframework.web.servlet.ModelAndView;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+
+/**
+ * 权限拦截器
+ */
 public class PermissionInterceptor implements HandlerInterceptor {
     public boolean preHandle(HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse, Object o) throws Exception {
         return true;
     }
 
-    public void postHandle(HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse, Object o, ModelAndView modelAndView) throws Exception {
+    public void postHandle(HttpServletRequest httpServletRequest,
+                           HttpServletResponse httpServletResponse,
+                           Object o, ModelAndView modelAndView) throws Exception {
         //以login结尾的请求
         if (modelAndView.getViewName().endsWith("login")){
             TbUser user = (TbUser) httpServletRequest.getSession().getAttribute(ConstantUtils.SESION_USER);

@@ -20,6 +20,7 @@ public interface ResearchService {
     String savePaper(PaperDto paperDto);
     void updatePaperById(PaperDto paperDto);
     List<Paper> searchPaper(String keyword);
+    void savePapers(List<Paper> papers,String email,Integer paperOrdNum);
 
     //专利管理
     List<Patent> getPatents(String email);

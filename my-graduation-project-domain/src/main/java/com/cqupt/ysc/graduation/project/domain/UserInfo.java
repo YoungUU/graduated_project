@@ -7,7 +7,7 @@ import java.util.Date;
 
 @Data
 public class UserInfo implements Serializable {
-    private long id;
+    private Long id;
     private String username;
     private String email;
     private String namePinyin;

@@ -6,4 +6,6 @@ public interface UserInfoService {
     UserInfoDto getUserInfoByEmail(String email);
 
     String updateUserBasicByEmail(UserInfoDto userInfoDto);
+
+    UserInfoDto search(String keyword);
 }

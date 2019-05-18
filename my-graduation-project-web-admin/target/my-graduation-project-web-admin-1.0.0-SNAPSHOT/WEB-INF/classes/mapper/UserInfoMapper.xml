@@ -57,4 +57,43 @@
         updated = #{updated}
         WHERE email = #{email}
     </select>
+
+    <select id="search" resultType="com.cqupt.ysc.graduation.project.domain.UserInfo">
+        SELECT
+        a.id,
+        a.email,
+        a.username,
+        a.name_pinyin,
+        a.pic,
+        a.english_name,
+        a.gender,
+        a.phone,
+        a.graduated_school,
+        a.education,
+        a.academic_degree,
+        a.main_posts,
+        a.company,
+        a.position1,
+        a.other_posts,
+        a.incumbency_information
+        FROM
+        user_info AS a
+        <where>
+            <if test="namePinyin != null and namePinyin !=''">
+                OR a.name_pinyin LIKE CONCAT ('%',#{namePinyin},'%')
+            </if>
+            <if test="englishName != null and englishName !=''">
+                OR a.english_name LIKE CONCAT ('%',#{englishName},'%')
+            </if>
+            <if test="username != null and username !=''">
+                OR a.username LIKE CONCAT ('%',#{username},'%')
+            </if>
+            <if test="academicDegree != null and academicDegree !=''">
+                OR a.academic_degree LIKE CONCAT ('%',#{academicDegree},'%')
+            </if>
+            <if test="mainPosts != null and mainPosts !=''">
+            OR a.main_posts LIKE CONCAT ('%',#{mainPosts},'%')
+            </if>
+        </where>
+    </select>
 </mapper>

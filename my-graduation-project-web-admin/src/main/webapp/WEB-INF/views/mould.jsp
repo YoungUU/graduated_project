@@ -12,6 +12,13 @@
 <head>
     <title>个人定制与共享平台</title>
     <jsp:include page="../includes/header.jsp"/>
+
+    <style type="text/css">
+        .resume{
+            width: 50%;
+            height: 50%;
+        }
+    </style>
 </head>
 
 <body class="hold-transition skin-blue sidebar-mini">
@@ -34,7 +41,20 @@
         </section>
         <!-- Main content -->
         <section class="content">
-
+            <table>
+                <tr>
+                    <td class="resume" ><a href="#"><img src="/static/assets/img/Resume/TIM截图20190518154932.jpg"  alt="简历模板" /></a></td>
+                    <td class="resume" ><a href="#"><img src="/static/assets/img/Resume/TIM截图20190518155023.jpg"  alt="简历模板" /></a></td>
+                    <td class="resume" ><a href="#"><img src="/static/assets/img/Resume/TIM截图20190518155043.jpg"  alt="简历模板" /></a></td>
+                    <td class="resume" ><a href="#"><img src="/static/assets/img/Resume/TIM截图20190518155056.jpg"  alt="简历模板" /></a></td>
+                </tr>
+                <tr>
+                    <td class="resume" ><a href="#"><img src="/static/assets/img/Resume/TIM截图20190518155929.jpg"  alt="简历模板" /></a></td>
+                    <td class="resume" ><a href="#"><img src="/static/assets/img/Resume/TIM截图20190518155106.jpg"  alt="简历模板" /></a></td>
+                    <th class="resume" ><a href="#"><img src="/static/assets/img/Resume/TIM截图20190518155140.jpg"  alt="简历模板" /></a></th>
+                    <th class="resume" ><a href="#"><img src="/static/assets/img/Resume/TIM截图20190518155124.jpg"  alt="简历模板" /></a></th>
+                </tr>
+            </table>
         </section>
     </div>
     <jsp:include page="../includes/copyright.jsp"/>

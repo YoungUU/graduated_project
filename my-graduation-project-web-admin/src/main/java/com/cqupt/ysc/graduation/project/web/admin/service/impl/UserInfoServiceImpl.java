@@ -50,4 +50,20 @@ public class UserInfoServiceImpl implements UserInfoService {
 
         return "ok";
     }
+
+    @Override
+    public UserInfoDto search(String keyword) {
+        UserInfo userInfo = new UserInfo();
+
+        userInfo.setNamePinyin(keyword);
+        userInfo.setEnglishName(keyword);
+        userInfo.setUsername(keyword);
+        userInfo.setMainPosts(keyword);
+        userInfo.setAcademicDegree(keyword);
+
+        UserInfoDto userInfoDto = new UserInfoDto();
+        BeanUtils.copyProperties(userInfoDao.search(userInfo),userInfoDto);
+
+        return userInfoDto;
+    }
 }
