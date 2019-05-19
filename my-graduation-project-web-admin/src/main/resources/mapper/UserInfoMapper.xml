@@ -21,9 +21,6 @@
         <if test="englishName !=null and englishName !=''">
             english_name = #{englishName},
         </if>
-        <if test="password !=null and password !=''">
-            password = #{password},
-        </if>
         <if test="pic !=null and pic !=''">
             pic = #{pic},
         </if>

@@ -49,8 +49,8 @@
                 </section>
 
 
+                <h3>教育经历</h3>
                 <section class="education-container">
-                        <h3>教育经历</h3>
                         <ul>
                             <li class="edu-item">
                                 <span class="time">2012年9月</span>
@@ -73,7 +73,7 @@
                 </section>
                 </c:forEach>
 
-                <h3>专利</h3>
+                <h3>专利成果</h3>
               <c:forEach items="${patents}" var="patent">
                 <section class="patent-container">
                     <ul>

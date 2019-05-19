@@ -13,4 +13,5 @@ public interface TbUserService {
      */
     TbUser login(String email, String password);
 
+    void updatePwd(TbUser tbUser);
 }

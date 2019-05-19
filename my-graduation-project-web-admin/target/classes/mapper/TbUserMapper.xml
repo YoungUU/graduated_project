@@ -34,10 +34,15 @@
         UPDATE
           tb_user
         SET
-          username = #{username},
-          password = #{password},
-          phone = #{phone},
-          email = #{email},
+        <if test="username !=null and username !=''">
+            username = #{username},
+        </if>
+        <if test="password !=null and password !=''">
+            password = #{password},
+        </if>
+        <if test="phone !=null and phone !=''">
+            phone = #{phone},
+        </if>
           updated = #{updated}
         WHERE id = #{id}
     </update>

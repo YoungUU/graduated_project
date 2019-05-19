@@ -21,5 +21,7 @@ public interface TbUserDao {
     TbUser getByEmail(String email);
 
     void update(TbUser tbUser);
+
     void insert(TbUser tbUser);
+
 }

@@ -32,4 +32,11 @@ public class TbUserServiceImpl implements TbUserService {
         }
         return null;
     }
+
+    @Override
+    public void updatePwd(TbUser tbUser) {
+        String md5Password = DigestUtils.md5DigestAsHex(tbUser.getPassword().getBytes());
+        tbUser.setPassword(md5Password);
+        tbUserDao.update(tbUser);
+    }
 }

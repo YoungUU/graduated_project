@@ -32,8 +32,8 @@ public class VisitorController {
         UserInfoDto userInfoDto = userInfoService.search(keyword);
 
         //由于数据量较少，所以将email写死
-//        String email = userInfoDto.getEmail();
-          String email = "admin@cqupt.com";
+        String email = userInfoDto.getEmail();
+//          String email = "admin@cqupt.com";
 
         //用email去吧所有的信息拿出来
         List<Paper> papers = researchService.getPapers(email);

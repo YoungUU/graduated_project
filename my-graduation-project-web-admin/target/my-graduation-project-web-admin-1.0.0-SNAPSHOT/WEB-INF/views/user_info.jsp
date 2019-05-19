@@ -77,9 +77,17 @@
                         </div>
 
                             <%--密码--%>
+
                         <div class="form-group">
-                            <label>密码</label>
-                            <input type="password" class="form-control"  name="password" placeholder="请输入您的密码">
+                            <%--<label>密码</label>&nbsp;<div style="font-size: 18px;color: red"><strong>${message == null ? "":"两个密码不一致！请重新输入!"}</strong></div>--%>
+                                <c:if test="${message != null}">
+                                    <div class="alert alert-danger alert-dismissible">
+                                        <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                                            ${ message}
+                                    </div>
+                                </c:if>
+                                <label>密码</label>
+                                <input type="password" class="form-control"  name="password" placeholder="请输入您的密码">
                         </div>
 
                         <div class="form-group">
