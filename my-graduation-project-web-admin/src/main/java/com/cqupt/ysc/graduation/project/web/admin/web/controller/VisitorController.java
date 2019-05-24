@@ -31,6 +31,12 @@ public class VisitorController {
 
         UserInfoDto userInfoDto = userInfoService.search(keyword);
 
+        if (userInfoDto == null){
+            String message = "您寻找的老师不存在，建议您重新回忆一下！！";
+            model.addAttribute("message",message);
+            return "index";
+        }
+
         //由于数据量较少，所以将email写死
         String email = userInfoDto.getEmail();
 //          String email = "admin@cqupt.com";

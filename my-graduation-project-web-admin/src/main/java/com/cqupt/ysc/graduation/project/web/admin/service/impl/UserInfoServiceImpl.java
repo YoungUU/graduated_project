@@ -62,7 +62,13 @@ public class UserInfoServiceImpl implements UserInfoService {
         userInfo.setAcademicDegree(keyword);
 
         UserInfoDto userInfoDto = new UserInfoDto();
-        BeanUtils.copyProperties(userInfoDao.search(userInfo),userInfoDto);
+
+        userInfo = userInfoDao.search(userInfo);
+
+        if (userInfo == null){
+            return null;
+        }
+        BeanUtils.copyProperties(userInfo,userInfoDto);
 
         return userInfoDto;
     }

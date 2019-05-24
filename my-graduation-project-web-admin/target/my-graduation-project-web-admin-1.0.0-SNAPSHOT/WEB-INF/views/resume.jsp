@@ -26,13 +26,14 @@
 <div class="wrapper">
 
     <!-- Content Wrapper. Contains page content -->
-    <div class="content-wrapper">
-
+    <div style="background:url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1558889885&di=d90c979eddf03c6d6986ab8686c184db&imgtype=jpg&er=1&src=http%3A%2F%2Fproduct.east.qn-cdns.ecrrc.com%2Fshop%2Fstore%2Fgoods%2F6038%2F6038_84046492120251.jpg)no-repeat;">
+<%--<c:url:https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1558889703&di=3295fbcf28c42509d6f89d792be614be&imgtype=jpg&er=1&src=http%3A%2F%2Fimg.zhisheji.com%2Fbbs%2Fforum%2F201506%2F08%2F172246x9nvpms3sv69r68z.jpg>--%>
         <!-- Main content -->
         <section class="content">
             <div class="container">
                 <section class="info-container">
-                    <h3>个人信息</h3>
+
+                    <h3 style="margin-top: 50px">个人信息</h3>
                     <div class="info-content">
                         <div class="left-content">
                             <img style="white-space: nowrap" src="/static/assets/img/user2-160x160.jpg">
@@ -55,7 +56,7 @@
                             <li class="edu-item">
                                 <span class="time">2012年9月</span>
                                 <span class="academy">墨尔本大学</span>
-                                <span class="major">研究生</span>
+                                <span class="major">进修</span>
                             </li>
                         </ul>
                 </section>

@@ -13,7 +13,8 @@ import javax.servlet.http.HttpServletResponse;
  * 权限拦截器
  */
 public class PermissionInterceptor implements HandlerInterceptor {
-    public boolean preHandle(HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse, Object o) throws Exception {
+    public boolean preHandle(HttpServletRequest httpServletRequest,
+                             HttpServletResponse httpServletResponse, Object o) throws Exception {
         return true;
     }
 

@@ -12,7 +12,7 @@
             height: 100%;
         }
         .mui-content{
-            background: url(static/assets/img/29178863.jpg) bottom center no-repeat #efeff4 ;
+            background: url(/static/assets/img/29178863.jpg) bottom center no-repeat #efeff4 ;
             background-size: 100% 100%;
             width: 100%;
             height: 48%;
@@ -35,6 +35,12 @@
     <button button type="button" class="btn btn-primary">登录</button>
 </a>
 
+<c:if test="${message != null}">
+    <div class="alert alert-danger alert-dismissible">
+        <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+            ${ message}
+    </div>
+</c:if>
 <form action="/visitor/search" method="get">
     <div class="input-group input-group-sm" style="width: 350px; margin: auto ; margin-top: 24%">
         <input type="text" name="keyword" class="form-control pull-right" placeholder="搜索">
