@@ -76,7 +76,7 @@
         <!-- /.social-auth-links -->
 
         <a href="#">忘记密码？</a><br>
-        <a href="#" class="text-center">新用户注册</a>
+        <%--<a href="#" class="text-center">新用户注册</a>--%>
 
     </div>
     <!-- /.login-box-body -->

@@ -41,7 +41,8 @@ public class ResearchController {
     }
 
     @RequestMapping(value = "/exportExcel")
-    public String exportExcel(HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse) throws Exception {
+    public String exportExcel(HttpServletRequest httpServletRequest,
+                              HttpServletResponse httpServletResponse) throws Exception {
         String email = EmailUtils.getUserEmail(httpServletRequest);
         List<Paper> papers = researchService.getPapers(email);
 
@@ -58,8 +59,11 @@ public class ResearchController {
             dataList.add(string);
         }
 
-        String[] rowName = {"id","论文名","编号","url","发布时间","顺序","状态","作者","发布者","email","删除标志","创建时间","更新时间"};
-        ExportExcelUtil exportExcelUtil = new ExportExcelUtil(title, rowName,dataList, httpServletRequest, httpServletResponse);
+        String[] rowName = {"id","论文名","编号","url",
+                "发布时间","顺序","状态","作者",
+                "发布者","email","删除标志","创建时间","更新时间"};
+        ExportExcelUtil exportExcelUtil = new ExportExcelUtil(title,
+                rowName,dataList, httpServletRequest, httpServletResponse);
         exportExcelUtil.exportData();
 
         return "redirect:/research/paper";
@@ -68,7 +72,6 @@ public class ResearchController {
     /**
      *所有Paper对外接口
      */
-
     @RequestMapping(value = "/paper")
     public String getPapers(HttpServletRequest httpServletRequest,Model model){
         String email = EmailUtils.getUserEmail(httpServletRequest);

@@ -45,8 +45,15 @@
 
                             <div class="row" style="padding-left: 12px; padding-top: 10px">
                                 <a href="/research/formPatent" type="button" class="btn  btn-sm btn-default"><i class="fa fa-plus-square"></i>新增</a>&nbsp;
-                                <a href="/research/formPatent" type="button" class="btn  btn-sm btn-default"><i class="fa fa-download"></i>导入</a>&nbsp;
-                                <a href="/research/formPatent" type="button" class="btn  btn-sm btn-default"><i class="fa fa-upload"></i>导出</a>&nbsp;
+                                <%--<a href="/research/formPatent" type="button" class="btn  btn-sm btn-default"><i class="fa fa-download"></i>导入</a>&nbsp;--%>
+                                <%--<a href="/research/formPatent" type="button" class="btn  btn-sm btn-default"><i class="fa fa-upload"></i>导出</a>&nbsp;--%>
+
+                                <a href="#" type="button" class="btn  btn-sm btn-default"><i class="fa fa-upload"></i>导出</a>&nbsp;
+
+                                <form action="#" enctype="multipart/form-data" method="post" style="display:inline-block">
+                                    <input type="file" name="file" value="file" style="float: left;"/>
+                                    <input type="submit" value="导入">
+                                </form>
                             </div>
 
                             <div class="box-tools">

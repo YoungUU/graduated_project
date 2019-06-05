@@ -34,7 +34,8 @@ public class LoginController {
      * @return
      */
     @RequestMapping(value = "login",method = RequestMethod.POST)
-    public String login(@RequestParam(required = true) String email, @RequestParam(required = true) String password, HttpServletRequest httpServletRequest) {
+    public String login(@RequestParam(required = true) String email,
+                        @RequestParam(required = true) String password, HttpServletRequest httpServletRequest) {
         TbUser tbUser = tbUserService.login(email, password);
 
         //登陆失败

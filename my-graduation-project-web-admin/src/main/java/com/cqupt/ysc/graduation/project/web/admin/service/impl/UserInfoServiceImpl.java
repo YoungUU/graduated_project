@@ -54,17 +54,17 @@ public class UserInfoServiceImpl implements UserInfoService {
     @Override
     public UserInfoDto search(String keyword) {
         UserInfo userInfo = new UserInfo();
-
+//      封装模糊搜索关键字
         userInfo.setNamePinyin(keyword);
         userInfo.setEnglishName(keyword);
         userInfo.setUsername(keyword);
         userInfo.setMainPosts(keyword);
         userInfo.setAcademicDegree(keyword);
-
+//      封装对象Dto
         UserInfoDto userInfoDto = new UserInfoDto();
-
+//      调用Dao层方法
         userInfo = userInfoDao.search(userInfo);
-
+//      判断是否有结果返回
         if (userInfo == null){
             return null;
         }
